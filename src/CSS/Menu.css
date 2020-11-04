@@ -1,0 +1,17 @@
+.header__second{
+    background-color: whitesmoke ;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
+
+
+.second__links{
+    color: black;
+    font-size: 1.0rem;
+    text-decoration: none !important;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+}
