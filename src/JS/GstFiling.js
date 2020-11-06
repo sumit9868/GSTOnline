@@ -11,60 +11,9 @@ import Offers from "./Offers";
 AOS.init();
 
 function GstFiling() {
-
-    const history = useHistory();
-
     AOS.init({
         duration: 1200,
     });
-
-    const inputRefs = React.useRef([
-        React.createRef(), React.createRef()
-    ]);
-
-    const [data, setData] = React.useState({});
-
-    const handleChange = (name, value) => {
-        setData(prev => ({ ...prev, [name]: value }))
-    }
-
-    const submitForm = (e) => {
-        e.preventDefault();
-
-        let isValid = true;
-
-        for (let i = 0; i < inputRefs.current.length; i++) {
-            const valid = inputRefs.current[i].current.validate()
-            console.log(valid)
-            if (!valid) {
-                isValid = false
-            }
-        }
-
-        if (!isValid) {
-            return
-        }
-
-
-        db.collection("Info")
-            .add({
-                name: data.name,
-                number: data.number,
-                email: data.email,
-                timestamp: new Date().getTime(),
-            })
-            .then(history.replace("/"))
-            .catch((error) => {
-                alert(error.message);
-            });
-
-
-
-        console.log("Logged In");
-        //Carry on as normal
-    }
-
-
     return (
         <div className="gstfiling">
 

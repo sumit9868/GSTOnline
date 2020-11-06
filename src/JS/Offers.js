@@ -5,6 +5,7 @@ import InputField from './InputField';
 import '../CSS/Offers.css'
 import { db } from "./firebase.js";
 function Offers() {
+
     const history = useHistory();
     const inputRefs = React.useRef([
         React.createRef(), React.createRef()
@@ -25,23 +26,28 @@ function Offers() {
                 isValid = false
             }
         }
+        
 
         if (!isValid) {
             return
         }
 
-
+    
         db.collection("Info")
-            .add({
-                name: data.name,
-                number: data.number,
-                email: data.email,
-                timestamp: new Date().getTime(),
-            })
-            .then(history.replace("/"))
-            .catch((error) => {
-                alert(error.message);
-            });
+        .add({
+            name: data.name,
+            number: data.number,
+            email: data.email,
+            timestamp: new Date().getTime(),
+        })
+        .then(() => {
+            alert("Info Saved");
+            history.replace("/");
+        })
+        .catch((error) => {
+            alert(error.message);
+        });
+
 
 
 
@@ -87,13 +93,14 @@ function Offers() {
                             name="name"
                             label="Name*:"
                             onChange={handleChange}
-                            validation={"required|min:6|max:12"}
+                            validation={"required"}
                         />
+                        
                         <InputField
                             ref={inputRefs.current[1]}
                             name="email"
                             label="Email*:"
-                            validation="required|min:6"
+                            validation="required"
                             onChange={handleChange}
                         />
 
