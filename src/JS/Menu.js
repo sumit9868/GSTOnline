@@ -6,49 +6,56 @@ function Menu() {
     return (
         <div className="menu">
             <div className="header__second">
+
+
+                <Link className="second__links" to="/gst-filing">
+                    <span className="second__links">
+                        GST
+                    </span >
+                </Link>
+
                 <Link className="second__links" to="/fssai">
                     <span className="second__links">
                         FSSAI
                     </span >
                 </Link>
 
-                <Link className="second__links" to="/Licence-Registrations">
+                <Link className="second__links" to="/MSME">
                     <span className="second__links">
-                        Licence/Registrations
-                    </span >
-                </Link>
-
-                <Link className="second__links" to="/gst-filing">
-                    <span className="second__links">
-                        GST & Taxes
-                    </span >
-                </Link>
-
-                <Link className="second__links" to="/FreeBusinessTools">
-                    <span className="second__links">
-                        Free Business Tools
+                        MSME
                     </span >
                 </Link>
 
 
-                <Link className="second__links" to="/LegalDrafts">
+                <Link className="second__links" to="/UDYAM">
                     <span className="second__links">
-                        Legal Drafts
+                        UDYAM
                     </span >
                 </Link>
 
-                <Link className="second__links" to="/Personal-Property">
+                <Link className="second__links" to="/E-way-Bill">
                     <span className="second__links">
-                        Personal/Property
+                        E Way Bill
                     </span >
                 </Link>
 
-                <Link className="second__links" to="/How-to">
+                <Link className="second__links" to="/PAN">
                     <span className="second__links">
-                        How to
+                        PAN Card
                     </span >
                 </Link>
 
+                <Link className="second__links" to="/Digital-Signature">
+                    <span className="second__links">
+                        Digital Signature
+                    </span >
+                </Link>
+
+                <Link className="second__links" to="/Invoice-Generation">
+                    <span className="second__links">
+                        Invoice generation
+                    </span >
+                </Link>
 
             </div>
         </div>

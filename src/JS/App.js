@@ -17,6 +17,7 @@ function App() {
             <Header />
             <Menu />
             <GstFiling />
+            <Header />
           </Route>
 
           <Route path="/">
@@ -24,6 +25,7 @@ function App() {
             <Menu />
             <Carousel />
             <Home />
+            <Header />
           </Route>
         </Switch>
       </div>
