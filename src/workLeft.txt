@@ -1,8 +1,10 @@
 header css
-offer full screen
 form on page 
 footer 
-logo
 home css
-login form 
-login page 
+keyword decoration
+charts poster imgs for content 
+content changes 
+color constrast
+india map for keywords 
+
