@@ -5,7 +5,6 @@
     justify-content: space-evenly;
     align-items: center;
     height: 50px;
-    position: sticky;
 }
 
 
@@ -15,4 +14,29 @@
     text-decoration: none !important;
     justify-content: space-evenly;
     font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 960px){
+
+    .header__second{
+        background-color: whitesmoke ;  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 50px;
+        position: sticky;
+    }
+    
+    
+    .second__links{
+        color: black;
+        font-size: 0.4rem;
+        text-decoration: none !important;
+        justify-content: space-evenly;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+
+
 }

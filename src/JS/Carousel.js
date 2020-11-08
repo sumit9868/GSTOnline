@@ -11,6 +11,7 @@ import image4 from '../Media/bannerMSME.jpg'
 export default function App() {
   return (
     <div className="carousel">
+
      <AliceCarousel autoPlay autoPlayInterval="500">
       <img src={image1} className="sliderimg" alt=""/>
       <img src={image2} className="sliderimg" alt=""/>

@@ -1,17 +1,19 @@
 .offers{
-    background-color: #F1D1B5;
+    /* background-color: #F1D1B5; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding-top: 5%;
     padding-bottom: 5%;
-    
+    background-image: url('../Media/gstfiling.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 
 .offers__banner__left{
-    flex: 0.6;
+    flex: 0.9;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -23,7 +25,7 @@
 }
 
 .offers__banner__right{
-    flex: 0.3;
+    flex: 0.2;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
@@ -52,6 +54,7 @@
     flex-direction:column;
     text-align: center;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .offers__form > span {
@@ -64,45 +67,34 @@
 
 .oldPrice{
     margin-right: 10%;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: red;
     text-decoration: line-through;
 }
 
 .newPrice{
     margin-left: 10%;
-    font-size: 1.5rem;
-    color: green;
+    font-size: 2.5rem;
+    color: rgb(5, 255, 5);
 }
 
-
-/* * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: #292929;
-  }
-   */
   .popup {
-    width: 100%;
-    height: 100vh;
-    overflow-y: auto;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background: #e3fff6;*/
-    background: #ebf5fc;
   }
   
   .form {
     border-radius: 20px;
-    padding: 30px;
-    min-width: 500px;
+    padding: 20px;
+    min-width: 200px;
     display: flex;
     flex-direction: column;
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.1),
-                -7px -7px 20px rgba(241, 255, 255, 1);
-  
+    background-color: #F1D1B5;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1),
+                -2px -2px 10px rgba(241, 255, 255, 1);
+
     align-items: center;
   }
   
@@ -117,17 +109,23 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    width: 350px;
+    width: 360px;
   }
   
+  .inputFieldInput{
+      margin: 0px 5% ;
+      width: 300px;
+  }
   .input-wrapper label {
+    margin: 0px 5% ;
     margin-bottom: 5px;
     font-weight: bold;
     width: 100%;
   }
   
   .input-wrapper input {
-    background-color: transparent;
+    background-color: white !important;
+    color: black !important ;
     border: unset;
     border-radius: 10px;
     padding: 10px;
@@ -139,16 +137,12 @@
   .offerLogin {
     margin-top: 20px;
     width: 130px;
-    background-color: transparent;
+    background-color: #292929 !important;
     outline: none;
-    color: #292929;
+    color: white !important ;
     font-weight: bold;
     border-radius: 10px;
     padding: 10px;
-    transition: ease all 250ms;
-    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.1),
-    -7px -7px 20px rgb(241, 255, 255);
-    border: unset;
   }
   
   .offerLogin:hover {
@@ -192,9 +186,8 @@
     .offers__banner__right{
         flex: 0.6;
         align-self: center;
-        position: relative ; 
         margin-right: 0px;
-        height: 40vh;
+        height: fit-content;
         padding: 5%;
         border-radius: 10px;
     }

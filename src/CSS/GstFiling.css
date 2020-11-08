@@ -1,25 +1,74 @@
+.info__page{
+  /* border-radius: 10px; */
+  background-color: rgb(193, 193, 248);
+  /* background-color: #f5f7fb; */
+
+}
+
+.info__header{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+ padding-bottom: 2%;
+ text-decoration: underline;
+}
+
+.box{
+  /* margin: 2% 2%; */
+  /* border: 2px solid black; */
+  color: black;
+  font-family: 'Roboto', sans-serif;
+
+} 
+.question{
+  padding: 5px 5px ;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.answer{
+  padding: 5px 5px ;
+
+  font-size: 1.0rem;
+}
+ 
+.info_copywrtie{
+  font-size: 1.0rem;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  .gstfiling{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* position: relative; */
 }
 
   .info{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
   }
   
   .item {
+    align-self: center;
     width: 70%;
-    margin: 50px 15%;
+    margin: 50px 0%;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    /* background-color: #3b3b3b; */
     background: rgb(255,153,51);
     background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);
-    /* text-align: left; */
-    /* color: white; */
     color: black;
     font-size: 1em;
     border-radius: 10px;
@@ -62,23 +111,21 @@
     }
     
     
-    .offers__banner__left{
+    /* .offers__banner__left{
         background-color: #F1D1B5;
         width:100%;
         display: flex;
         flex-direction: column;
         padding-top: 2%;
         padding-bottom: 2%;
-    }
+    } */
     
     .offers__heading{
         font-size: 1.5rem;
     }
     
     .offers__banner__right{
-        flex: 0.6;
         align-self: center;
-        position: relative ; 
         margin-right: 0px;
         padding: 5%;
         border-radius: 10px;

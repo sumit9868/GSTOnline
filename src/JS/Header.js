@@ -6,13 +6,13 @@ import emblem from '../Media/emblem.png'
 
 function Header() {
     return (
-        <div className="header">
+        <nav className="header">
                 <div className="header__logo1">
                     <Link className="header__logo" to="/home">
                         < img src={logo} alt="logo" />
                         <div className="header__logo__text">
                         <span className="links"> GST Suvidha Kendra </span>
-                        <span className="underlinks"> An Authorised body</span>
+                        <span className="underlinks"> An Authorised GSP</span>
                         </div>
                     </Link>
                 </div>
@@ -35,14 +35,16 @@ function Header() {
                         </span >
                     </Link>
 
-
                     <Link className="links" to="/BCA">
                         <span className="links">
                             FREE Billing Sofware
                         </span >
                     </Link>
+
+                    
+
                 </div>
-        </div>
+        </nav>
     )
 }
 

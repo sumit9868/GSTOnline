@@ -1,5 +1,12 @@
+
 .sliderimg{
-    width: 100%;
+    width: 100%;      
     height: 400px;
-    /* object-fit: cover */
+  }
+
+  @media screen and (max-width: 960px){
+    .sliderimg{
+      width: 100%;
+      height: 100px;
+    }
   }

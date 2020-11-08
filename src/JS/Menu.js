@@ -4,8 +4,14 @@ import { Link } from 'react-router-dom'
 
 function Menu() {
     return (
-        <div className="menu">
+        <nav className="menu">
             <div className="header__second">
+
+            <Link className="second__links" to="/">
+                    <span className="second__links">
+                        Home
+                    </span >
+                </Link>
 
 
                 <Link className="second__links" to="/gst-filing">
@@ -57,8 +63,10 @@ function Menu() {
                     </span >
                 </Link>
 
+                <span className="second__links"> Contact Us-9315744106</span>
+
             </div>
-        </div>
+        </nav>
     )
 }
 
