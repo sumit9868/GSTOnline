@@ -1,23 +1,31 @@
 import React from "react";
-import "../CSS/Carousel.css";
-import AliceCarousel from 'react-alice-carousel';
-import "react-alice-carousel/lib/alice-carousel.css";
-import image1 from '../Media/banner1.jpg'
-import image2 from '../Media/banner3.jpg'
-import image3 from '../Media/bannerE.jpg'
-import image4 from '../Media/bannerMSME.jpg'
+import '../CSS/Carousel.css';
+import banner1 from '../Media/banner1.jpg';
+import banner3 from '../Media/banner3.jpg';
+import bannerE from '../Media/bannerE.jpg';
+import bannerMSME from '../Media/bannerMSME.jpg';
 
+function Carousel(){
 
-export default function App() {
-  return (
-    <div className="carousel">
+    return (
+        <div class="marquee">
+            <ul class="marquee-content">
+                <li><img className="img1" src={banner1} /></li>
+                <li><img className="img1" src={banner3} /></li>
+                <li><img className="img1" src={bannerE} /></li>
+                <li><img className="img1" src={bannerMSME} /></li>
 
-     <AliceCarousel autoPlay autoPlayInterval="500">
-      <img src={image1} className="sliderimg" alt=""/>
-      <img src={image2} className="sliderimg" alt=""/>
-      <img src={image3} className="sliderimg" alt=""/>
-      <img src={image4} className="sliderimg" alt=""/>
-    </AliceCarousel>
-    </div>
-  );
+                <li><img className="img1" src={banner1} /></li>
+                <li><img className="img1" src={banner3} /></li>
+                <li><img className="img1" src={bannerE} /></li>
+                <li><img className="img1" src={bannerMSME} /></li>
+
+            </ul>
+        </div>
+    )
 }
+export default Carousel;
+
+
+
+

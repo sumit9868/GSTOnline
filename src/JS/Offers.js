@@ -2,7 +2,7 @@ import React from 'react'
 import { useHistory } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import InputField from './InputField';
-import img from '../Media/gstfiling.jpg'
+import img from '../Media/gstfiling1.jpg'
 import '../CSS/Offers.css'
 import { db } from "./firebase.js";
 function Offers() {
@@ -56,58 +56,11 @@ function Offers() {
 
             <div className="offers__banner__left">
 
+             <img src={img} alt="gstbanner" />
+
             </div>
 
-
-            {/* <div className="offers__banner__right">
-
-                <div className="offers__tagline">
-                    <span> Todays Offers </span>
-                </div>
-
-                <div className="offers__form">
-                    <span>Best GST filing Package</span>
-
-                    <div className="price">
-                        <span className="oldPrice">₹1500</span>
-                        <span className="newPrice">₹499</span>
-                    </div>
-
-                    <span>Offer valid for today only</span>
-                </div>
-
-                <div className="popup">
-                    <form onSubmit={submitForm} className="form">
-                        <h1>Hurry up!!! Register Now  </h1>
-                        <InputField
-                            ref={inputRefs.current[0]}
-                            name="name"
-                            label="Name*:"
-                            onChange={handleChange}
-                            validation={"required"}
-                        />
-                        
-                        <InputField
-                            ref={inputRefs.current[1]}
-                            name="email"
-                            label="Email*:"
-                            validation="required"
-                            onChange={handleChange}
-                        />
-
-                        <InputField
-                            ref={inputRefs.current[1]}
-                            name="number"
-                            label="Number*:"
-                            validation="required|min:10|max:10"
-                            onChange={handleChange}
-                        />
-                        <Button type="submit" className="offerLogin">THANK YOU </Button>
-                    </form>
-                </div>
-            </div> */}
-
-            <div className="home__right">
+            <div className="home__left">
 
                 <div className="home__tagline">
                     <span> Todays Offers </span>
@@ -151,7 +104,7 @@ function Offers() {
                             validation="required|min:10|max:10"
                             onChange={handleChange}
                         />
-                        <Button type="submit" className="offerLogin">Submit</Button>
+                        <Button type="submit" className="home__button">Submit</Button>
                     </form>
                 </div>
 

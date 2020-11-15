@@ -1,35 +1,139 @@
-.info__page{
-  /* border-radius: 10px; */
-  background-color: rgb(193, 193, 248);
-  /* background-color: #f5f7fb; */
 
+.top6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top6__heading{
+  margin-top: 5%;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.top6__part1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0% 2% ;
+}
+
+.top6__part2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0% 2% ;
+  /* border-bottom: 2px solid black; */
+
+}
+
+.top6__box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #f3642b; */
+  color: #ff4800;
+  border-radius: 20px;
+  margin: 1% 1% ;
+  padding: 1% 1%;
+  /* border: 1px solid black ; */
+}
+
+.top6__box > span {
+  margin-top: 5%;
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.top6__img{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+.top6__img :hover{
+  border-radius: 20px;
+  background-color: yellow;
+}
+
+.top6__para > p{
+  font-weight: lighter;
+  text-align: center;
+
+}
+
+.FAQ{
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.info__left{
+  flex: 0.2;
+  display: flex;
+  padding: 1% 1%;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  height: 500px;
+  
+}
+
+.info__left__link{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.0rem;
+  text-align: center;
+  border: 3px solid #ff4800;
+  border-radius: 10px;
+  width: 100%;
+  margin: 5% 5%;
+
+}
+
+
+.info__left__link > a{
+  
+  color: black;
+  text-decoration: none ;
+}
+
+.info__page{
+  overflow-y: auto;
+  height: 500px;
+  margin: 0px;
+  flex: 0.6;
+}
+
+.info__right{
+  flex: 0.1;
 }
 
 .info__header{
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 2rem;
- padding-bottom: 2%;
- text-decoration: underline;
+  padding-bottom: 2%;
 }
 
 .box{
-  /* margin: 2% 2%; */
-  /* border: 2px solid black; */
   color: black;
-  font-family: 'Roboto', sans-serif;
-
 } 
 .question{
   padding: 5px 5px ;
   font-weight: bolder;
   font-size: 1rem;
+  text-align: left;  
+  font-family: 'Oswald', sans-serif;
 }
 
 .answer{
-  padding: 5px 5px ;
-
+  font-family: 'Poppins', sans-serif;
   font-size: 1.0rem;
+  text-align: center;
 }
  
 .info_copywrtie{
@@ -37,17 +141,7 @@
   font-family: 'Roboto', sans-serif;
   font-style: italic;
 }
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  .gstfiling{
     display: flex;
     flex-direction: column;
@@ -60,23 +154,11 @@
     flex-direction: column;
     align-self: center;
   }
-  
-  .item {
-    align-self: center;
-    width: 70%;
-    margin: 50px 0%;
-    display: flex;
-    flex-direction: column;
-    background: rgb(255,153,51);
-    background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);
-    color: black;
-    font-size: 1em;
-    border-radius: 10px;
-  }
+
   
   .info__header{
     text-align: center;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 2em;
     margin-top: 5%;
     
@@ -90,12 +172,37 @@
   
   
   @media screen and (max-width: 960px){
+
+
+    .top6 {
+      display: block;
+    }
+
+    .info__right{
+      display: none;
+    }
+
+    .top6{
+      display: none;
+    }
+    
+  .info__page{
+    overflow-y: hidden;
+    height: 500px;
+    margin: 0px;
+    flex: 0.6;
+  }
+
+    .info__left{
+      display: none;
+    }
     .item {
       width: 100%;
       background-color: #3b3b3b;
     }
     
     .info__header{
+      font-family: 'Merriweather', serif;
       font-size: 1.5rem;
     }
     
@@ -110,15 +217,7 @@
         flex-direction: column;
     }
     
-    
-    /* .offers__banner__left{
-        background-color: #F1D1B5;
-        width:100%;
-        display: flex;
-        flex-direction: column;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    } */
+
     
     .offers__heading{
         font-size: 1.5rem;

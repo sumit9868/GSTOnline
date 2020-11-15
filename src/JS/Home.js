@@ -4,21 +4,14 @@ import Button from '@material-ui/core/Button';
 import InputField from './InputField';
 import { db } from "./firebase.js";
 import { Link, useHistory } from 'react-router-dom'
-
 import img1 from '../Media/fssai1.jpg'
 import img2 from '../Media/gst.jpg'
-import img3 from '../Media/acounting.jpg'
-import img4 from '../Media/company-incorporation.jpg'
 import img5 from '../Media/msme.jpg'
 import img9 from '../Media/pan.jpg'
 import img10 from '../Media/ewaybill.jpg'
 import img11 from '../Media/udyam.jpg'
 import img12 from '../Media/digitalsign.jpg'
 import img13 from '../Media/invoice.jpg'
-import img6 from '../Media/information.png'
-import img7 from '../Media/document.png'
-import img8 from '../Media/home.png'
-
 
 
 
@@ -76,22 +69,16 @@ function Home() {
             <div className="home__form__services">
 
 
-                <div className="home__right">
+                <div className="home__left">
 
-                    <div className="home__tagline">
-                        <span> Todays Offers </span>
-                    </div>
+                    
+                    <span className="home__tagline"> Todays Offers <br/> </span>
+                    <span className="home__para">Best GST filing Package <br/></span>
+                    
+                    <span className="home__newPrice"> <span className="home__oldPrice">₹1500</span>       ₹499 <br/> </span>
+                    
+                    <span className="home__para">Offer valid for today only <br/></span>
 
-                    <div className="home__para">
-                        <span>Best GST filing Package</span>
-
-                        <div className="price">
-                            <span className="oldPrice">₹1500</span>
-                            <span className="newPrice">₹499</span>
-                        </div>
-
-                        <span>Offer valid for today only</span>
-                    </div>
 
                     <div className="home__outterform">
                         <form onSubmit={submitForm} className="home__form">
@@ -120,7 +107,7 @@ function Home() {
                                 validation="required|min:10|max:10"
                                 onChange={handleChange}
                             />
-                            <Button type="submit" className="offerLogin">Submit</Button>
+                            <Button type="submit" className="home__button">Submit</Button>
                         </form>
                     </div>
 

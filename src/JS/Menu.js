@@ -63,7 +63,7 @@ function Menu() {
                     </span >
                 </Link>
 
-                <span className="second__links"> Contact Us-9315744106</span>
+                <span className="second__links"> Call@ 9315744106</span>
 
             </div>
         </nav>

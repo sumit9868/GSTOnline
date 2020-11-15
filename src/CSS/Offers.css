@@ -1,69 +1,22 @@
 .offers{
-    /* background-color: #F1D1B5; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-image: url('../Media/gstfiling.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-color:whitesmoke;
 }
 
 
 .offers__banner__left{
-    flex: 0.9;
+    flex: 0.7;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
-.offers__heading{
-    font-size: 2.5rem;
+.offers__banner__left > img {
+    height: 100%;
+    width: 100%;
 }
-
-.offers__banner__right{
-    flex: 0.2;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    background-color: #3b3b3b;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.offers__tagline{
-    background-color: white;
-    height: 10vh;
-    display: grid;
-    place-content: center;
-}
-
-.offers__tagline > span{
-    align-items: center;
-    color: black;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.7rem;
-}
-
-.offers__form{
-    display: flex;
-    flex-direction:column;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 5%;
-}
-
-.offers__form > span {
-    font-family: 'Nunito Sans', sans-serif;
-    color: white;
-    font-size: 1.5rem;
-}
-
-
 
 .oldPrice{
     margin-right: 10%;
@@ -77,34 +30,8 @@
     font-size: 2.5rem;
     color: rgb(5, 255, 5);
 }
+  
 
-  .popup {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .form {
-    border-radius: 20px;
-    padding: 20px;
-    min-width: 200px;
-    display: flex;
-    flex-direction: column;
-    background-color: #F1D1B5;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1),
-                -2px -2px 10px rgba(241, 255, 255, 1);
-
-    align-items: center;
-  }
-  
-  
-  .form h1 {
-    text-align: center;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
   .input-wrapper {
     display: flex;
     flex-direction: column;
@@ -134,26 +61,11 @@
     inset -3px -3px 5px rgba(241, 255, 255, 0.5);
   }
   
-  .offerLogin {
-    margin-top: 20px;
-    width: 130px;
-    background-color: #292929 !important;
-    outline: none;
-    color: white !important ;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 10px;
-  }
-  
-  .offerLogin:hover {
-    cursor: pointer;
-    color: #292929;
-    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.1),
-    inset -3px -3px 5px rgba(241, 255, 255, 0.5);
-  }
+
   
   .error {
     margin-top: 10px;
+    margin-left: 8%;
     font-weight: bold;
     font-style: italic;
     color: #b60000;
@@ -163,76 +75,32 @@
 @media screen and (max-width: 960px){
 
     .offers{
-        background-color: #F1D1B5;
-        height: 90vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
     }
-    
-    
-    .offers__banner__left{
-        flex: 0.1;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    
-    .offers__heading{
-        font-size: 1.5rem;
-    }
-    
-    .offers__banner__right{
-        flex: 0.6;
-        align-self: center;
-        margin-right: 0px;
-        height: fit-content;
-        padding: 5%;
-        border-radius: 10px;
-    }
-    
-    .offers__tagline{
-        background-color: white;
-        height: 10vh;
-        display: grid;
-        place-content: center;
-    }
-    
-    .offers__tagline > span{
-        align-items: center;
-        color: black;
-        font-family: 'Nunito Sans', sans-serif;
-        font-size: 1.7rem;
-        font-weight: 700;
-    }
-    
-    .offers__form{
-        display: flex;
-        flex-direction:column;
-        text-align: center;
-        align-items: center;
-    }
-    
-    .offers__form > span {
-        font-family: 'Nunito Sans', sans-serif;
-        color: white;
-        font-size: 1.5rem;
-    }
-    
-    
-    
+
+   
+
     .oldPrice{
         margin-right: 10%;
-        font-size: 1.5rem;
+        font-size: 2.0rem;
         color: red;
         text-decoration: line-through;
     }
     
     .newPrice{
         margin-left: 10%;
-        font-size: 1.5rem;
-        color: green;
+        font-size: 2.0rem;
+        color: rgb(5, 255, 5);
     }
+
+    .home__tagline{
+        font-size: 1.5rem;
+    }
+
+    .home__para{
+        font-size: 1.0rem;
+    }
+
     
 }
