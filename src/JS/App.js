@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Home';
 import GstFiling from './GstFiling';
 import Menu from './Menu';
+import Fssai from './Fssai';
+import Msme from './Msme';
 
 
 function App() {
@@ -18,7 +20,21 @@ function App() {
             <Menu />
             <GstFiling />
             <Header />
-          </Route>
+        </Route>
+
+        <Route path="/fssai">
+            <Header />
+            <Menu />
+            <Fssai />
+            <Header />
+        </Route>
+
+        <Route path="/MSME">
+            <Header />
+            <Menu />
+            <Msme />
+            <Header />
+        </Route>
 
           <Route path="/">
             <Header />

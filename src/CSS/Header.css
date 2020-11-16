@@ -32,15 +32,22 @@
     color: black;
 }
 
+.email{
+    margin-top: 2%;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
 .header__logo > img {
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
     margin: 10px 0px;
     margin-right: 5%;
 }
 
 .header__middle{
-    flex: 0.3;
+    flex: 0.4;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -54,9 +61,10 @@
 }
 .header__middle > span {
     color: black;
-    font-size: 2.0rem;
+    font-size: 2.5rem;    
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none !important;
-    font-family: 'Roboto', sans-serif;
 
 }
 .header__links{
@@ -70,9 +78,10 @@
 
 .links{
     color: black;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none !important;
-    font-family: 'Roboto', sans-serif;
 
 }
 

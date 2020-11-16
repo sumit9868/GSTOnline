@@ -1,0 +1,322 @@
+.fssai__offers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:white;
+    margin-top: 2%;
+}
+
+
+.fssai__offers__banner__left{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fssai__left{
+    flex: 0.2;
+    background-color: pink;
+    height: max-content;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+
+.fssai__tagline{
+    align-self: center;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    margin: 4% 0%;
+    font-size: 2.1rem;
+}
+
+
+
+.fssai__para{
+    align-items: center;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.fssai__form > h2{
+    text-align: center;
+}
+
+
+.fssai__price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2.5rem;
+}
+
+
+.fssai__oldPrice{
+    color: red;
+    text-decoration: line-through;
+}
+
+.fssai__newPrice{
+    color: rgb(23, 126, 23);
+}
+
+
+
+.fssai__form{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.fssai__button{
+    width: 130px !important;
+    margin: 4% 0% !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+
+@media screen and (max-width: 960px){
+
+.fssai__offers{
+    display: flex;
+    flex-direction: column;
+}
+
+.fssai__offers__banner__left > img{
+    height: 100%;
+    width: 100%;
+
+}
+
+}
+
+
+
+
+.fssai__top6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .fssai__top6__heading{
+    margin-top: -50px;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  .fssai__top6__part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0% 2% ;
+  }
+  
+  .fssai__top6__part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0% 2% ;  
+  }
+  
+  .fssai__top6__fssai__box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(252, 87, 114);
+    border-radius: 20px;
+    margin: 1% 1% ;
+    padding: 1% 1%;
+}
+
+.fssai__top6__fssai__box > span {
+    color: black;
+    margin-top: 5%;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  .fssai__top6__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+  }
+  
+  .fssai__top6__img :hover{
+    border-radius: 20px;
+    background-color: yellow;
+  }
+  
+  .fssai__top6__para > p{
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+  
+  }
+  
+  .fssai__FAQ{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .fssai__info__left{
+    flex: 0.2;
+    display: flex;
+    padding: 1% 1%;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    height: 500px;
+    
+  }
+  
+  .fssai__info__left__link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0rem;
+    text-align: center;
+    border: 3px solid rgb(252, 87, 114) ;
+    border-radius: 10px;
+    width: 100%;
+    margin: 5% 5%;
+    padding-bottom: 2%;
+  
+  }
+  
+  
+  .fssai__info__left__link > a{
+    padding: 5px 5px ;
+    color: black;
+    text-decoration: none ;
+  }
+  
+  .fssai__info__page{
+    overflow-y: auto;
+    height: 500px;
+    margin: 0px;
+    flex: 0.6;
+  }
+  
+  .fssai__info__right{
+    flex: 0.1;
+  }
+  
+  .fssai__info__header{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    padding-bottom: 2%;
+  }
+  
+  .fssai__box{
+    color: black;
+  } 
+  .fssai__question{
+    padding: 5px 5px ;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: left;  
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+
+  }
+  
+  .fssai__answer{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0rem;
+    text-align: left;
+  }
+
+ 
+  .fssai__info_copywrtie{
+    font-size: 1.0rem;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+  }
+  
+   .fssai__content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  
+    .fssai__info{
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+    }
+  
+    .fssai__info__header{
+      text-align: center;
+      font-family: 'Merriweather', serif;
+      font-size: 2em;
+      margin-top: 5%;
+      
+    }
+    
+    .fssai__info__para{
+      font-family: 'Open Sans Condensed', sans-serif;
+      line-height: 200%;
+      padding: 5%;
+    }
+    
+    
+    @media screen and (max-width: 960px){
+  
+      .fssai__top6 {
+        display: block;
+      }
+  
+      .fssai__info__right{
+        display: none;
+      }
+  
+      .fssai__top6{
+        display: none;
+      }
+      
+    .fssai__info__page{
+      /* overflow-y: hidden; */
+      height: 500px;
+      margin: 0px;
+      flex: 0.6;
+    }
+  
+      .fssai__info__left{
+        display: none;
+      }
+      .item {
+        width: 100%;
+        background-color: #3b3b3b;
+      }
+      
+      .fssai__info__header{
+        font-family: 'Merriweather', serif;
+        font-size: 1.5rem;
+      }
+      
+      .fssai__info__para{
+        font-size: 0.7rem;
+        line-height: 150%;
+      }
+  
+      
+  }

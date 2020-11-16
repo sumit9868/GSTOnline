@@ -10,15 +10,15 @@ function Carousel(){
     return (
         <div class="marquee">
             <ul class="marquee-content">
-                <li><img className="img1" src={banner1} /></li>
-                <li><img className="img1" src={banner3} /></li>
-                <li><img className="img1" src={bannerE} /></li>
-                <li><img className="img1" src={bannerMSME} /></li>
+                <li><img className="img1" alt="carouselImg" src={banner1} /></li>
+                <li><img className="img1" alt="carouselImg" src={banner3} /></li>
+                <li><img className="img1" alt="carouselImg" src={bannerE} /></li>
+                <li><img className="img1" alt="carouselImg" src={bannerMSME} /></li>
 
-                <li><img className="img1" src={banner1} /></li>
-                <li><img className="img1" src={banner3} /></li>
-                <li><img className="img1" src={bannerE} /></li>
-                <li><img className="img1" src={bannerMSME} /></li>
+                <li><img className="img1" alt="carouselImg" src={banner1} /></li>
+                <li><img className="img1" alt="carouselImg" src={banner3} /></li>
+                <li><img className="img1" alt="carouselImg" src={bannerE} /></li>
+                <li><img className="img1" alt="carouselImg" src={bannerMSME} /></li>
 
             </ul>
         </div>

@@ -10,10 +10,17 @@
 
 .second__links{
     color: black;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     text-decoration: none !important;
     justify-content: space-evenly;
-    font-family: 'Roboto', sans-serif;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 @media screen and (max-width: 960px){
@@ -25,7 +32,6 @@
         justify-content: space-evenly;
         align-items: center;
         height: 50px;
-        position: sticky;
     }
     
     

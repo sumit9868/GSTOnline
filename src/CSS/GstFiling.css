@@ -24,7 +24,6 @@
   flex-direction: row;
   justify-content: space-around;
   margin: 0% 2% ;
-  /* border-bottom: 2px solid black; */
 
 }
 
@@ -33,16 +32,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: #f3642b; */
-  color: #ff4800;
   border-radius: 20px;
   margin: 1% 1% ;
   padding: 1% 1%;
-  /* border: 1px solid black ; */
 }
 
 .top6__box > span {
+  color: black;
   margin-top: 5%;
+  font-weight: 700;
+  font-style: italic;
   font-size: 1.5rem;
   font-family: 'Poppins', sans-serif;
   
@@ -60,7 +59,9 @@
 }
 
 .top6__para > p{
-  font-weight: lighter;
+  color: #ff4800;
+  font-weight: 500;
+  font-style: italic;
   text-align: center;
 
 }
@@ -91,12 +92,13 @@
   border-radius: 10px;
   width: 100%;
   margin: 5% 5%;
+  padding-bottom: 2%;
 
 }
 
 
 .info__left__link > a{
-  
+  padding: 5px 5px ;
   color: black;
   text-decoration: none ;
 }
@@ -187,7 +189,7 @@
     }
     
   .info__page{
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     height: 500px;
     margin: 0px;
     flex: 0.6;

@@ -2,7 +2,6 @@ import React from 'react'
 import '../CSS/GstFiling.css'
 import gstposter from '../Media/gstPoster.png'
 import img from '../Media/wallet.png'
-import gstposter2 from '../Media/gstPoster2.png'
 import Offers from "./Offers";
 
 function GstFiling() {

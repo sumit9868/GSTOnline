@@ -71,13 +71,13 @@ function Home() {
 
                 <div className="home__left">
 
-                    
-                    <span className="home__tagline"> Todays Offers <br/> </span>
-                    <span className="home__para">Best GST filing Package <br/></span>
-                    
-                    <span className="home__newPrice"> <span className="home__oldPrice">₹1500</span>       ₹499 <br/> </span>
-                    
-                    <span className="home__para">Offer valid for today only <br/></span>
+
+                    <span className="home__tagline"> Todays Offers <br /> </span>
+                    <span className="home__para">Best GST filing Package <br /></span>
+
+                    <span className="home__newPrice"> <span className="home__oldPrice">₹1500</span>       ₹499 <br /> </span>
+
+                    <span className="home__para">Offer valid for today only <br /></span>
 
 
                     <div className="home__outterform">
@@ -131,18 +131,23 @@ function Home() {
                             </div>
 
                             <div className="home__img">
-                                <Link className="home__img" to='/gst-filing' >
+                                <Link className="home__img" to='/fssai' >
                                     <img src={img1} alt="fssai" />
                                     <span className="home__tag">FSSAI</span>
                                 </Link>
                             </div>
 
                             <div className="home__img">
-                                <Link className="home__img" to='/gst-filing' >
+                                <Link className="home__img" to='/MSME' >
                                     <img src={img5} alt="msme" />
                                     <span className="home__tag">MSME</span>
                                 </Link>
                             </div>
+
+
+                        </div>
+
+                        <div className="home__imgservices__part2">
 
                             <div className="home__img">
                                 <Link className="home__img" to='/gst-filing' >
@@ -150,11 +155,7 @@ function Home() {
                                     <span className="home__tag">UDYAM</span>
                                 </Link>
                             </div>
-
-                        </div>
-
-                        <div className="home__imgservices__part2">
-
+                            
                             <div className="home__img">
                                 <Link className="home__img" to='/gst-filing' >
                                     <img src={img10} alt="DigitalSystem" />
@@ -169,19 +170,19 @@ function Home() {
                                 </Link>
                             </div>
 
-                            <div className="home__img">
+                            {/* <div className="home__img">
                                 <Link className="home__img" to='/gst-filing' >
                                     <img src={img12} alt="DigitalSystem" />
                                     <span className="home__tag">Digital Signature</span>
                                 </Link>
-                            </div>
+                            </div> */}
 
-                            <div className="home__img">
+                            {/* <div className="home__img">
                                 <Link className="home__img" to='/gst-filing' >
                                     <img src={img13} alt="invoice" />
                                     <span className="home__tag">Invoice generation</span>
                                 </Link>
-                            </div>
+                            </div> */}
 
                         </div>
 
@@ -198,10 +199,10 @@ function Home() {
                 <span className="banner__para">We provide a reliable trusted long term association & services for your business</span>
 
             </div>
-
-            <div className="home__services">
-                <p>
-                    <br />
+            <div className="sevices">
+                <div className="home__services">
+                    <p>
+                        <br />
                     GST Registration In Madhya Pradesh | GST Registration In Jammu | GST Registration In Dehradun | GST Registration In Rishikesh |
                     GST Registration In Mizoram | GST Registration In Nagaland | GST Registration In Odisha | GST Registration In Punjab |
                     GST Registration In Assam | GST Registration In Bihar |	 GST Registration In Gujarat |	 GST Registration In Arunachal Pradesh |
@@ -222,71 +223,73 @@ function Home() {
 
 
                 </p>
-            </div>
+                </div>
 
-            <div className="home__services">
-                <p>
-                    Food license Madhya Pradesh | Food license Jammu | Food license Dehradun | Food license Rishikesh |
-                    Food license Mizoram | Food license Nagaland |	 Food license Odisha | Food license Punjab |
-                    Food license Assam | Food license Bihar |	 Food license Gujarat |	 Food license Arunachal Pradesh |
-                    Food license Rajasthan | Food license Sikkim | Food license Tamilnadu |	Food license Tripura |
-                    Food license Haryana | Food license Delhi |	Food license Karnataka |	Food license Kerala |
-                    Food license West Bengal |	Food license Chhattisgarh |	Food license Uttarakhand |	Food license Jharkhand |
-                    Food license Haldwani |	Food license Maharashtra | Food license Manipur |	Food license Haridwar |
-                    Food license Telangana |	Food license Uttar Pradesh | Food license Himachal Pradesh | Food license Mumbai  |
-                    Food license Kolkata | Food license Chennai | Food license Ahmedabad | Food license  Bangalore | Food license  Hyderabad | Food license  Jamshedpur |
-                    Food license  Nagpur | Food license  Patna | Food license  Pune | Food license  Surat | Food license  Vijayawada |
-                    Food license  Visakhapatnam | Food license Ranchi | Food license Andra Pradesh | Food license Bhopal | Food license Srinagar | Food license Aizawl
-                    | Food license GhandiNagar | Food license Guwahati | Food license Thiruvananthapuram | Food license Jaipur | Food license Gangtok | Food license Agartala
-                    | Food license Chandigarh | Food license Raipur  | Food license Imphal | Food license YamunaNagar | Food license Lucknow | Food license Kanpur | Food license Indore
-                    | Food license Thane | Food license Pimpri-Chinchwad | Food license Ghaziabad | Food license Ludhiana | Food license Agar | Food license Nashik | Food license Faridhabad | Food license Meerut
-                    | Food license Varanasi | Food license Aurangabad | Food license Amristsar | Food license Allahabad | Food license Gwalior | Food license Jodhpur | Food license Mysore  | Food license Gurgaon | Food license Janlandhar
-                    | Food license Noida | Food license Katak | Food license In Kochi
+                <div className="home__services">
+                    <p>
+                        Food license Madhya Pradesh | Food license Jammu | Food license Dehradun | Food license Rishikesh |
+                        Food license Mizoram | Food license Nagaland |	 Food license Odisha | Food license Punjab |
+                        Food license Assam | Food license Bihar |	 Food license Gujarat |	 Food license Arunachal Pradesh |
+                        Food license Rajasthan | Food license Sikkim | Food license Tamilnadu |	Food license Tripura |
+                        Food license Haryana | Food license Delhi |	Food license Karnataka |	Food license Kerala |
+                        Food license West Bengal |	Food license Chhattisgarh |	Food license Uttarakhand |	Food license Jharkhand |
+                        Food license Haldwani |	Food license Maharashtra | Food license Manipur |	Food license Haridwar |
+                        Food license Telangana |	Food license Uttar Pradesh | Food license Himachal Pradesh | Food license Mumbai  |
+                        Food license Kolkata | Food license Chennai | Food license Ahmedabad | Food license  Bangalore | Food license  Hyderabad | Food license  Jamshedpur |
+                        Food license  Nagpur | Food license  Patna | Food license  Pune | Food license  Surat | Food license  Vijayawada |
+                        Food license  Visakhapatnam | Food license Ranchi | Food license Andra Pradesh | Food license Bhopal | Food license Srinagar | Food license Aizawl
+                        | Food license GhandiNagar | Food license Guwahati | Food license Thiruvananthapuram | Food license Jaipur | Food license Gangtok | Food license Agartala
+                        | Food license Chandigarh | Food license Raipur  | Food license Imphal | Food license YamunaNagar | Food license Lucknow | Food license Kanpur | Food license Indore
+                        | Food license Thane | Food license Pimpri-Chinchwad | Food license Ghaziabad | Food license Ludhiana | Food license Agar | Food license Nashik | Food license Faridhabad | Food license Meerut
+                        | Food license Varanasi | Food license Aurangabad | Food license Amristsar | Food license Allahabad | Food license Gwalior | Food license Jodhpur | Food license Mysore  | Food license Gurgaon | Food license Janlandhar
+                        | Food license Noida | Food license Katak | Food license In Kochi
                 </p>
-            </div>
+                </div>
 
 
-            <div className="home__services">
-                <p>
-                    MSME Madhya Pradesh | MSME Jammu | MSME Dehradun | MSME Rishikesh |
-                    MSME Mizoram | MSME Nagaland |	 MSME Odisha |	 MSME Punjab |
-                    MSME Assam | MSME Bihar |	 MSME Gujarat |	 MSME Arunachal Pradesh |
-                    MSME Rajasthan | MSME Sikkim | MSME Tamilnadu |	MSME Tripura |
-                    MSME Haryana | MSME Delhi |	MSME Karnataka |	MSME Kerala |
-                    MSME West Bengal |	MSME Chhattisgarh |	MSME Uttarakhand |	MSME Jharkhand |
-                    MSME Haldwani |	MSME Maharashtra | MSME Manipur |	MSME Haridwar |
-                    MSME Telangana |	MSME Uttar Pradesh | MSME Himachal Pradesh | MSME Mumbai  |
-                    MSME Kolkata | MSME Chennai | MSME Ahmedabad | MSME  Bangalore | MSME  Hyderabad | MSME  Jamshedpur |
-                    MSME  Nagpur | MSME  Patna | MSME  Pune | MSME  Surat | MSME  Vijayawada |
-                    MSME  Visakhapatnam | MSME Ranchi | MSME Andra Pradesh | MSME Bhopal | MSME Srinagar | MSME Aizawl
-                    | MSME GhandiNagar | MSME Guwahati | MSME Thiruvananthapuram | MSME Jaipur | MSME Gangtok | MSME Agartala
-                    | MSME Chandigarh | MSME Raipur  | MSME Imphal | MSME YamunaNagar | MSME Lucknow | MSME Kanpur | MSME Indore
-                    | MSME Thane | MSME Pimpri-Chinchwad | MSME Ghaziabad | MSME Ludhiana | MSME Agar | MSME Nashik | MSME Faridhabad | MSME Meerut
-                    | MSME Varanasi | MSME Aurangabad | MSME Amristsar | MSME Allahabad | MSME Gwalior | MSME Jodhpur | MSME Mysore  | MSME Gurgaon | MSME Janlandhar
-                    | MSME Noida | MSME Katak | MSME Kochi
+                <div className="home__services">
+                    <p>
+                        MSME Madhya Pradesh | MSME Jammu | MSME Dehradun | MSME Rishikesh |
+                        MSME Mizoram | MSME Nagaland |	 MSME Odisha |	 MSME Punjab |
+                        MSME Assam | MSME Bihar |	 MSME Gujarat |	 MSME Arunachal Pradesh |
+                        MSME Rajasthan | MSME Sikkim | MSME Tamilnadu |	MSME Tripura |
+                        MSME Haryana | MSME Delhi |	MSME Karnataka |	MSME Kerala |
+                        MSME West Bengal |	MSME Chhattisgarh |	MSME Uttarakhand |	MSME Jharkhand |
+                        MSME Haldwani |	MSME Maharashtra | MSME Manipur |	MSME Haridwar |
+                        MSME Telangana |	MSME Uttar Pradesh | MSME Himachal Pradesh | MSME Mumbai  |
+                        MSME Kolkata | MSME Chennai | MSME Ahmedabad | MSME  Bangalore | MSME  Hyderabad | MSME  Jamshedpur |
+                        MSME  Nagpur | MSME  Patna | MSME  Pune | MSME  Surat | MSME  Vijayawada |
+                        MSME  Visakhapatnam | MSME Ranchi | MSME Andra Pradesh | MSME Bhopal | MSME Srinagar | MSME Aizawl
+                        | MSME GhandiNagar | MSME Guwahati | MSME Thiruvananthapuram | MSME Jaipur | MSME Gangtok | MSME Agartala
+                        | MSME Chandigarh | MSME Raipur  | MSME Imphal | MSME YamunaNagar | MSME Lucknow | MSME Kanpur | MSME Indore
+                        | MSME Thane | MSME Pimpri-Chinchwad | MSME Ghaziabad | MSME Ludhiana | MSME Agar | MSME Nashik | MSME Faridhabad | MSME Meerut
+                        | MSME Varanasi | MSME Aurangabad | MSME Amristsar | MSME Allahabad | MSME Gwalior | MSME Jodhpur | MSME Mysore  | MSME Gurgaon | MSME Janlandhar
+                        | MSME Noida | MSME Katak | MSME Kochi
                 </p>
-            </div>
+                </div>
 
-            <div className="home__services">
-                <p>
+                <div className="home__services">
+                    <p>
 
-                    PAN Card In Madhya Pradesh | PAN Card In Jammu | PAN Card In Dehradun | PAN Card In Rishikesh |
-                    PAN Card In Mizoram | PAN Card In Nagaland |	 PAN Card In Odisha |	 PAN Card In Punjab |
-                    PAN Card In Assam | PAN Card In Bihar |	 PAN Card In Gujarat |	 PAN Card In Arunachal Pradesh |
-                    PAN Card In Rajasthan | PAN Card In Sikkim | PAN Card In Tamilnadu |	PAN Card In Tripura |
-                    PAN Card In Haryana | PAN Card In Delhi |	PAN Card In Karnataka |	PAN Card In Kerala |
-                    PAN Card In West Bengal |	PAN Card In Chhattisgarh |	PAN Card In Uttarakhand |	PAN Card In Jharkhand |
-                    PAN Card In Haldwani |	PAN Card In Maharashtra | PAN Card In Manipur |	PAN Card In Haridwar |
-                    PAN Card In Telangana |	PAN Card In Uttar Pradesh | PAN Card In Himachal Pradesh | PAN Card In Mumbai  |
-                    PAN Card In Kolkata | PAN Card In Chennai | PAN Card In Ahmedabad | PAN Card In  Bangalore | PAN Card In  Hyderabad | PAN Card In  Jamshedpur |
-                    PAN Card In  Nagpur | PAN Card In  Patna | PAN Card In  Pune | PAN Card In  Surat | PAN Card In  Vijayawada |
-                    PAN Card In  Visakhapatnam | PAN Card In Ranchi | PAN Card In Andra Pradesh | PAN Card In Bhopal | PAN Card In Srinagar | PAN Card In Aizawl
-                    | PAN Card In GhandiNagar | PAN Card In Guwahati | PAN Card In Thiruvananthapuram | PAN Card In Jaipur | PAN Card In Gangtok | PAN Card In Agartala
-                    | PAN Card In Chandigarh | PAN Card In Raipur  | PAN Card In Imphal | PAN Card In YamunaNagar | PAN Card In Lucknow | PAN Card In Kanpur | PAN Card In Indore
-                    | PAN Card In Thane | PAN Card In Pimpri-Chinchwad | PAN Card In Ghaziabad | PAN Card In Ludhiana | PAN Card In Agar | PAN Card In Nashik | PAN Card In Faridhabad | PAN Card In Meerut
-                    | PAN Card In Varanasi | PAN Card In Aurangabad | PAN Card In Amristsar | PAN Card In Allahabad | PAN Card In Gwalior | PAN Card In Jodhpur | PAN Card In Mysore  | PAN Card In Gurgaon | PAN Card In Janlandhar
-                    | PAN Card In Noida | PAN Card In Katak | PAN Card In Kochi
+                        PAN Card In Madhya Pradesh | PAN Card In Jammu | PAN Card In Dehradun | PAN Card In Rishikesh |
+                        PAN Card In Mizoram | PAN Card In Nagaland |	 PAN Card In Odisha |	 PAN Card In Punjab |
+                        PAN Card In Assam | PAN Card In Bihar |	 PAN Card In Gujarat |	 PAN Card In Arunachal Pradesh |
+                        PAN Card In Rajasthan | PAN Card In Sikkim | PAN Card In Tamilnadu |	PAN Card In Tripura |
+                        PAN Card In Haryana | PAN Card In Delhi |	PAN Card In Karnataka |	PAN Card In Kerala |
+                        PAN Card In West Bengal |	PAN Card In Chhattisgarh |	PAN Card In Uttarakhand |	PAN Card In Jharkhand |
+                        PAN Card In Haldwani |	PAN Card In Maharashtra | PAN Card In Manipur |	PAN Card In Haridwar |
+                        PAN Card In Telangana |	PAN Card In Uttar Pradesh | PAN Card In Himachal Pradesh | PAN Card In Mumbai  |
+                        PAN Card In Kolkata | PAN Card In Chennai | PAN Card In Ahmedabad | PAN Card In  Bangalore | PAN Card In  Hyderabad | PAN Card In  Jamshedpur |
+                        PAN Card In  Nagpur | PAN Card In  Patna | PAN Card In  Pune | PAN Card In  Surat | PAN Card In  Vijayawada |
+                        PAN Card In  Visakhapatnam | PAN Card In Ranchi | PAN Card In Andra Pradesh | PAN Card In Bhopal | PAN Card In Srinagar | PAN Card In Aizawl
+                        | PAN Card In GhandiNagar | PAN Card In Guwahati | PAN Card In Thiruvananthapuram | PAN Card In Jaipur | PAN Card In Gangtok | PAN Card In Agartala
+                        | PAN Card In Chandigarh | PAN Card In Raipur  | PAN Card In Imphal | PAN Card In YamunaNagar | PAN Card In Lucknow | PAN Card In Kanpur | PAN Card In Indore
+                        | PAN Card In Thane | PAN Card In Pimpri-Chinchwad | PAN Card In Ghaziabad | PAN Card In Ludhiana | PAN Card In Agar | PAN Card In Nashik | PAN Card In Faridhabad | PAN Card In Meerut
+                        | PAN Card In Varanasi | PAN Card In Aurangabad | PAN Card In Amristsar | PAN Card In Allahabad | PAN Card In Gwalior | PAN Card In Jodhpur | PAN Card In Mysore  | PAN Card In Gurgaon | PAN Card In Janlandhar
+                        | PAN Card In Noida | PAN Card In Katak | PAN Card In Kochi
                 </p>
+                </div>
+
             </div>
 
 

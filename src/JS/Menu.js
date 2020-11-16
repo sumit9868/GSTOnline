@@ -1,6 +1,7 @@
 import React from 'react'
 import '../CSS/Menu.css'
 import { Link } from 'react-router-dom'
+import CallIcon from '@material-ui/icons/Call';
 
 function Menu() {
     return (
@@ -51,19 +52,21 @@ function Menu() {
                     </span >
                 </Link>
 
-                <Link className="second__links" to="/Digital-Signature">
+                {/* <Link className="second__links" to="/Digital-Signature">
                     <span className="second__links">
                         Digital Signature
                     </span >
-                </Link>
+                </Link> */}
 
-                <Link className="second__links" to="/Invoice-Generation">
+                {/* <Link className="second__links" to="/Invoice-Generation">
                     <span className="second__links">
                         Invoice generation
                     </span >
-                </Link>
-
-                <span className="second__links"> Call@ 9315744106</span>
+                </Link> */}
+                <div className="phone">
+                <CallIcon />
+                <span className="second__links">9315744106</span>
+                </div>
 
             </div>
         </nav>
