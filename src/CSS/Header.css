@@ -96,6 +96,10 @@
     .underlinks{
         font-size: 0.2rem;
     }
+
+    .email{
+        font-size: 0.2rem;
+    }
     
     .header__logo > img {
         height: 20px;

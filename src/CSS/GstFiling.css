@@ -189,7 +189,6 @@
     }
     
   .info__page{
-    /* overflow-y: hidden; */
     height: 500px;
     margin: 0px;
     flex: 0.6;
@@ -219,7 +218,6 @@
         flex-direction: column;
     }
     
-
     
     .offers__heading{
         font-size: 1.5rem;

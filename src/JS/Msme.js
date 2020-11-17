@@ -274,16 +274,15 @@ function Msme() {
             </div>
                         <span className="msme__info__left__link">
                             <a href="#1">
-                                Importance of Food License
-                </a>
+                            Q1. What are Micro, Small and Medium Enterprise?
+                            </a>
                         </span>
 
 
 
                         <span className="msme__info__left__link">
                             <a href="#2">
-                                How do individuals planning on running food establishments apply for a license?
-
+                            Q2 Benefits of MSME Registration
                 </a>
                         </span>
 
@@ -291,8 +290,7 @@ function Msme() {
 
                         <span className="msme__info__left__link">
                             <a href="#3">
-                                List of Documents required for applying FSSAI
-
+                            Q3.Who is eligible for MSME registration
                 </a>
                         </span>
 
@@ -300,23 +298,53 @@ function Msme() {
 
                         <span className="msme__info__left__link">
                             <a href="#4">
-                                What would the rest of the steps to make the license a possibility be?
-
+                            Q4. Documents & Details required for MSME Registration
                 </a>
                         </span>
 
                         <span className="msme__info__left__link">
                             <a href="#5">
-                                Is Fssai Licence mandatory for Trader?
-                </a>
+                            Q5. Information Required for MSME Registration
+                            </a>
                         </span>
 
 
                         <span className="msme__info__left__link">
                             <a href="#6">
-                                Is GST mandatory for Swiggy and Zomato?
+                            Q6. Is MSME updated to Udyam Registration?
+                             </a>
+                        </span>
 
-                </a>
+                        <span className="msme__info__left__link">
+                            <a href="#7">
+                            Q7. Is aadhar card compulsory?
+                            </a>
+                        </span>
+
+
+                        <span className="msme__info__left__link">
+                            <a href="#8">
+                            Q8. Can existing and new businesses both apply?
+                            </a>
+                        </span>
+
+
+                        <span className="msme__info__left__link">
+                            <a href="#9">
+                            Q9. What is the validity of the certificate?
+                            </a>
+                        </span>
+
+                        <span className="msme__info__left__link">
+                            <a href="#10">
+                            Q10. Can trading companies register under MSME?
+                            </a>
+                        </span>
+
+                        <span className="msme__info__left__link">
+                            <a href="#11">
+                            Q11. Do i want multiple registrations for manufacturing plants in several cities?
+                            </a>
                         </span>
 
 
@@ -328,17 +356,74 @@ function Msme() {
 
                         <div className="msme__info__header">
 
-                            Learn more about FSSAI
+                            Learn more about MSME
 
                         </div>
 
                         <div className="msme__box">
 
-                            <span id="1" className="msme__question"> Importance of Food License <br /> </span>
+                            <span id="1" className="msme__question"> Q1. What are Micro, Small and Medium Enterprise? <br /> </span>
 
 
-                            <span className="msme__answer">Food license is needed for legally running and operation of the food establishments. It is a mandatory requirement and not an option for running the business. This is made compulsory through the Delhi Police Act, if places are trying to function without the necessary paperwork; they could find themselves shut down permanently, their equipment confiscated and massive fines imposed. These licenses have to be applied for under the state of city headquarters. The registration authority concerning restaurant Licenses is
-                            that the Commissioner of Police and would need to handle this in their respective state. </span>
+                            <span className="msme__answer">The existing MSME classification was supported the standards of investment in plant and machinery or equipment.
+                             So, to avail the MSME benefits, the MSMEs need to limit their investment to a lower limit, as mentioned below: <br/>
+                              <br/>
+
+                             <h2> Existing MSME Classification:</h2>
+
+                                <table>
+                                <tr>
+                                    <th>Sector</th>
+                                    <th>Criteria</th>
+                                    <th>Micro</th>
+                                    <th>Small</th>
+                                    <th>Medium</th>
+                                </tr>
+                                <tr>
+                                    <td>Manufacturing</td>
+                                    <td>Investment </td>
+                                    <td> Less than Rs.25 lakh </td>
+                                    <td> Less than Rs.5 crore </td>
+                                    <td> Less than Rs.10 crore </td>
+                                </tr>
+                                <tr>
+                                    <td>Services</td>
+                                    <td>Investment </td>
+                                    <td> Less than Rs.10 lakh </td>
+                                    <td> Less than Rs.2 crore </td>
+                                    <td> Less than Rs.5 crore </td>
+                                </tr>
+                                </table>
+
+                                <br/>
+
+                                These lower limits are killing the urge to grow as they're unable to scale their businesses further. Also, there has been a long-pending demand for the revision of MSME classification in order that they will further expand their operations while continuing to avail the MSME benefits. Now, under the Aatmanirbhar Bharat Abhiyan (ABA), the govt revised the MSME classification* by inserting composite criteria of both investment and annual turnover. Also, the excellence between the manufacturing and therefore the services sectors under the MSME definition has been removed. This removal will create parity between the sectors. The following is that the revised MSME classification*,
+                                where the investment and annual turnover, both are to be considered for deciding an MSME.
+                                <br/>
+                                Criteria Micro Small Medium*
+                                <br/>
+
+                                <h2> Revised MSME Classification:</h2>
+
+                                <table>
+                                <tr>
+                                    <th>Criteria</th>
+                                    <th>Micro</th>
+                                    <th>Small</th>
+                                    <th>Medium*</th>
+                                </tr>
+                                <tr>
+                                    <td>Investment & Annual Turnover</td>
+                                    <td>  Less than Rs.1 crore  & Less than Rs.5 crore</td>
+                                    <td>  Less than Rs.10 crore & Less than Rs.50 crore </td>
+                                    <td>  Less than Rs.50 crore & Less than Rs.250 crore </td>
+                                </tr>
+                          
+                                </table>
+                             
+                             
+                             
+                             </span>
 
                             <br /> <br />
 
@@ -346,127 +431,88 @@ function Msme() {
 
                         <div className="msme__box">
 
-                            <span id="2" className="msme__question">How do individuals planning on running food establishments apply for a license?  <br /> </span>
-
-
-                            <span className="msme__answer"> The best a part of the licenses at the instant is that there are applications that allow people to use for them online. However, there are a couple of trips that they need to handle.
-                            The entire process is two-step and needs people to register their establishment to the website before they can apply for the licenses that they would need. At some points, they need to upload supporting documents that make the method easier and therefore the entire processing and verification process would happen within the backend.
-                            </span>
-                            <br /> <br />
-                        </div>
-
-
-                        <div className="msme__box">
-
-                            <span id="3" className="msme__question">List of Documents required for applying FSSAI  <br /> </span>
+                            <span id="2" className="msme__question">Q2 Benefits of MSME Registration <br /> </span>
 
 
                             <span className="msme__answer">
 
                                 <li className="msme__info__text__points">
+                                    
+                                    ISO Certification Charges Reimbursement.
 
-                                    Proof of identification such as PAN Card details, Passport, Voter ID, driver’s license and so on.
-
+                                    <li>
+                                    Bank Loans (Collateral Free)
                                     </li>
 
-                                <li>
-                                    Proof of residence such as Passport, Voter ID, Government bank account etc.
+                                    <li>
+                                    Subsidy on Patent Registration
                                     </li>
 
-                                <li>
-                                    Proof of ownership or lease documents if the land is being rented.
+                                    <li>
+                                    Overdraft Interest Rate Exemption
                                     </li>
 
-                                <li>
-                                    Registration documents of the company or establishment to prove that it is valid.
-                                     </li>
-
-                                <li>
-                                    Self-attested no objection certificate (NOC) from the owner of the premise, if it is being rented out for an eatery.
+                                    <li>
+                                    Industrial Promotion Subsidy Eligibility
                                     </li>
 
-                                <li>
-                                    Trade License from NDMC/DCB/MCD/Airport Operator depending on the location of the establishment.
+                                    <li>
+                                    Protection against Payments (Delayed Payments)
                                     </li>
 
-                                <li>
-                                    Certification of Incorporation of the companies and LLP.
+                                    <li>
+                                    Fewer Electricity Bills 
                                     </li>
 
-
-
-                                <li>
-                                    Memorandum of Association of the eating house and LLP.
-                                    </li>
-
-                                <li>
-                                    Complete list of Director or Partner Names and the current Form 32.
-                                    </li>
-
-                                <li>
-                                    Copy of the FSSAI license/registration papers.
-                                    </li>
-
-                                <li>
-                                    Resolution of the board for conducting business.
-                                    </li>
-
-
-                                <li>
-                                    Updated GST registration certificate.
-                                    </li>
-
-
-                                <li>
-                                    Certificate of registration issued by the Labour Department, GNCT of the state.
-                                    Photographs of the allocated space.
-                                    </li>
-
-                                <li>
-                                    Fire Safety Certification applicable for eating houses, seating a minimum of 50 people at a time.
-                                    </li>
-
-
-                                <li>
-                                    List of all employees working in the eating house including food handler details – their name, parentage, and address.
-                                    </li>
-
-
-                                <li>
-                                    Consent Letter from the DPCC (a provisional license provided based on the application submission proof).
-                                    </li>
-
-
-                                <li>
-                                    Approved site plan with Fire precautions certificates.
-                                    </li>
-
-
-                                <li>
-                                    Self-attested prescribed Affidavit for issuing a fresh license.
-                                    </li>
-
-                                <li>
-                                    Police Clearance Certificate (PCC).
-                                    </li>
-
-                                <li>
-                                    Permissions from the Indian Performing Right Society (IPRS), for having amusement activities like DJ, Live Band, and Discotheque.
-                                    </li>
-
-                                <li>
-                                    Proof of CCTV or surveillance systems installed along with at least 30 days of video recording having the details of installation or invoice of CCTV, etc.
-                                    </li>
-
-                                <li>
-                                    Photographs of the allocated space.
-                                    </li>
-
-                                    These are all the main documents that would be needed. If a number of the documents are submitted under one category, they can't be used again.
-                                    For instance, if a passport has been used as an
-                                    dentification proof, it can't be used for an address proof also and would need to be substituted with something else.
-
+                                
+                                </li>
                                 </span>
+
+                            <br /> <br />
+                        </div>
+
+
+                        <div className="msme__box">
+
+                            <span id="3" className="msme__question">Q3.Who is eligible for MSME registration<br /> </span>
+
+
+                            <span className="msme__answer">
+
+                                <li className="msme__info__text__points">
+                                    
+                                Proprietorships
+                                    <li>
+                                    Partnership Firm 
+                                    </li>
+
+                                    <li>
+                                    Private Limited Company
+                                    </li>
+
+                                    <li>
+                                    Public Limited Company
+                                    </li>
+
+                                    <li>
+                                    Limited Liability Partnership 
+                                    </li>
+
+                                    <li>
+                                    Hindu Undivided Family
+                                    </li>
+
+                                    <li>
+                                    Self Help Groups
+                                    </li>
+
+                                    <li>
+                                    Society / Co-Operative Society
+                                    </li>
+
+                                </li>
+                            </span>
+                           
 
                             <br /> <br />
 
@@ -478,17 +524,48 @@ function Msme() {
                         <div className="msme__box">
 
                             <span id="4" className="msme__question">
-                                What would the rest of the steps to make the license a possibility be?
+                            Q4. Documents & Details required for MSME Registration
                             <br /> </span>
 
 
-                            <span className="msme__answer"> The process generally takes 30 to 90 days. After submitting all the knowledge,
-                            this has got to be actively followed upon. The validity of an restaurant license does vary supported multiple factors
-                            just like the sort of establishment being run, as an example , food trucks would have shorter expiration dates for their
-                            licenses as compared to restaurants. Usually, however, the default for many venues is three years.
-                            While approaching the expiration date of the license, the establishment would wish someone to figure on the method of renewing it. Unlike most other
-                            Government documents, the restaurant license doesn't have a renewal form. It would have to be done like the process of applying for the license from
-                            the get-go. This does take time so it would be better to begin a little better the actual expiration of the license.
+                            <span className="msme__answer">
+
+                            <li className="msme__info__text__points">
+                                
+                               Aadhar Card of the applicant
+                                <li>
+                                 Photo ID proof
+                                </li>
+
+                                <li>
+                                Business Name
+                                </li>
+
+                                <li>
+                                Type of Business entity
+                                </li>
+
+                                <li>
+                                Office/Plant Address
+                                </li>
+
+                                <li>
+                                Date of commencement of Business
+                                </li>
+
+                                <li>
+                                Bank Details (Account number & IFSC)
+                                </li>
+
+                                <li>
+                                Business Activity details
+                                </li>
+
+                                <li>
+                                Investment in plant & machinery 
+                                </li>
+
+                            </li>
                             </span>
 
                             <br /> <br />
@@ -498,12 +575,13 @@ function Msme() {
                         <div className="msme__box">
 
                             <span id="5" className="msme__question">
-                                Is Fssai Licence mandatory for Trader?
+                            Q5. Information Required for MSME Registration
                             <br /> </span>
 
 
-                            <span className="msme__answer"> Obtaining an FSSAI license is mandatory before starting any food business operation in India. All the traders, manufacturers, restaurants who are involved
-                            in food business must obtain a 14-digit license number which is printed on their food products.</span>
+                            <span className="msme__answer">Aadhaar Card is that the only document required for MSME registration. MSME registration is fully 
+                            online and no proof of documents is required. PAN and GST linked details on investment and turnover of enterprises are going to be taken automatically by the Udyam Registration Portal from the govt databases. The Udyam Registration Portal is fully integrated with tax and GSTIN systems. PAN and GSTIN number is mandatory from 01.04.2021 for registration. Registration without PAN and GSTIN are often done now but need to be updated with PAN number and GSTIN number within 01/04/2021 for avoiding suspension of registration. Those who have EM-II or UAM registration or the other registration issued by any authority under the Ministry of MSME,
+                            will need to re-register themselves during this Portal (as stated in the Registration Process heading above)</span>
 
                             <br /> <br />
 
@@ -512,18 +590,102 @@ function Msme() {
                         <div className="msme__box">
 
                             <span id="6" className="msme__question">
-                                Is GST mandatory for Swiggy and Zomato?
+                            Q6. Is MSME updated to Udyam Registration?
                             <br /> </span>
 
 
                             <span className="msme__answer">
-                                Swiggy, Zomato and Foodpanda provide online delivery services to restaurants at a commission of around 20 per cent, which is levied an 18 per cent GST. ... Food delivery services are taxed at 18 per cent, which the restaurants have to pay.
-                                But, they cannot now avail of any tax credit against input services.
+                            Ans. Yes, MSME registration has been replaced with the Udyam Registration. If any micro, small and medium industries want to start out any business; they have to try to to the registration with MSME/Udyam Registration. This registration 
+                            with MSME/Udyam Registration is completely online. This facility provides the business with tons of advantages and subsidies.
                             </span>
 
                             <br /> <br />
 
                         </div>
+
+                        <div className="msme__box">
+
+                            <span id="7" className="msme__question">
+                            Q7. Is aadhar card compulsory?
+                            <br /> </span>
+
+
+                            <span className="msme__answer">
+                            Ans. Yes. For registration under the Udyam registration, an Aadhaar card is compulsory. 
+                            In case an applicant is aside from the proprietor, the Aadhaar card of the partner and therefore the director are going to be required
+                            </span>
+
+                            <br /> <br />
+
+                        </div>
+
+
+                        <div className="msme__box">
+
+                            <span id="8" className="msme__question">
+                            Q8. Can existing and new businesses both apply?
+                            <br /> </span>
+
+
+                            <span className="msme__answer">
+                            Ans. Yes, an existing and new business can apply for MSME/Udyam Registration, provided the prevailing unit is
+                            functioning and meets the edge limits for registration. UAM Registration has got to be re-registered for Udyam registration to avail the advantages of MSME.
+                            </span>
+
+                            <br /> <br />
+
+                        </div>
+
+                        <div className="msme__box">
+
+                            <span id="8" className="msme__question">
+                            Q9. What is the validity of the certificate?
+                            <br /> </span>
+
+
+                            <span className="msme__answer">
+                            Ans. there's no expiry of the Udyam Registration Certificate. As long because the entity is moral and financially healthy 
+                            there'll be no expiry of the certificate.
+                            </span>
+
+                            <br /> <br />
+
+                        </div>
+
+                        <div className="msme__box">
+
+                            <span id="9" className="msme__question">
+                            Q10. Can trading companies register under MSME?
+                            <br /> </span>
+
+
+                            <span className="msme__answer">
+                            Ans. No. MSME covers only manufacturing and service industries. Trading companies are not covered by the scheme. MSME is to support startups with subsidies and benefits, trading companies are a 
+                            bit like middlemen, a link between manufacturer and customer. Hence not covered under the scheme.
+                            </span>
+
+                            <br /> <br />
+
+                        </div>
+
+
+                        <div className="msme__box">
+
+                            <span id="10" className="msme__question">
+                            Q11. Do i want multiple registrations for manufacturing plants in several cities?
+                            <br /> </span>
+
+
+                            <span className="msme__answer">
+                            Ans. No. The MSME/Udyam Registration Certificate is for one entity 
+                            regardless of multiple branches or plants. However, information about multiple branches or plants must be furnished.
+                            </span>
+
+                            <br /> <br />
+
+                        </div>
+
+                        
 
                         <span className="msme__info_copywrtie">@Content used from Govt. website</span>
                     </div>

@@ -1,3 +1,7 @@
+table, th, td {
+  border: 1px solid black;
+}
+
 .msme__offers{
     display: flex;
     flex-direction: row;
@@ -296,10 +300,10 @@
       }
       
     .msme__info__page{
-      /* overflow-y: hidden; */
+      width: 100%;
       height: 500px;
       margin: 0px;
-      flex: 0.6;
+      flex: 0.9;
     }
   
       .msme__info__left{

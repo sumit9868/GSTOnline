@@ -64,7 +64,7 @@ function Menu() {
                     </span >
                 </Link> */}
                 <div className="phone">
-                <CallIcon />
+                <CallIcon className="call" />
                 <span className="second__links">9315744106</span>
                 </div>
 
