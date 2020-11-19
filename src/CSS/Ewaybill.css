@@ -1,0 +1,333 @@
+table, th, td {
+    border: 1px solid black;
+  }
+  
+  .ewaybill__offers{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color:white;
+      margin-top: 2%;
+  }
+  
+  
+  .ewaybill__offers__banner__left{
+      flex: 0.7;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .ewaybill__offers__banner__left > img {
+      height: 585px;
+}
+
+  
+  
+  .ewaybill__left{
+      flex: 0.2;
+      background-color: #00EA3D;
+      height: max-content;
+      margin-bottom: 10%;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column; 
+      align-items: center;
+  }
+  
+  
+  .ewaybill__tagline{
+      align-self: center;
+      color: white;
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: bold;
+      margin: 4% 0%;
+      font-size: 2.1rem;
+  }
+  
+  
+  
+  .ewaybill__para{
+      align-items: center;
+      color: white;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 1.7rem;
+      text-align: center;
+  }
+  
+  .ewaybill__form > h2{
+      color: white;
+      text-align: center;
+  }
+  
+  
+  .ewaybill__price{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 2.5rem;
+  }
+  
+  
+  .ewaybill__oldPrice{
+      color: rgb(255, 0, 0);
+      text-decoration: line-through;
+  }
+  
+  .ewaybill__newPrice{
+      color: rgb(0, 128, 0);
+  }
+  
+  
+  
+  .ewaybill__form{
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  
+  
+  .ewaybill__button{
+      width: 130px !important;
+      margin: 4% 0% !important;
+      background-color: black !important;
+      color: white !important;
+  }
+  
+  
+  @media screen and (max-width: 960px){
+  
+  .ewaybill__offers{
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .ewaybill__offers__banner__left > img{
+      height: 100%;
+      width: 100%;
+  
+  }
+  
+  }
+  
+  
+  
+  
+  .ewaybill__top6{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .ewaybill__top6__heading{
+      margin-top: -50px;
+      font-size: 2rem;
+      font-family: 'Roboto', sans-serif;
+    
+    }
+    
+    .ewaybill__top6__part1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 0% 2% ;
+    }
+    
+    .ewaybill__top6__part2{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin: 0% 2% ;  
+    }
+    
+    .ewaybill__top6__ewaybill__box{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #00EA3D;
+      border-radius: 20px;
+      margin: 1% 1% ;
+      padding: 1% 1%;
+  }
+  
+  .ewaybill__top6__ewaybill__box > span {
+      color: black;
+      margin-top: 5%;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 1.5rem;
+      font-family: 'Poppins', sans-serif;
+      
+    }
+    
+    .ewaybill__top6__img{
+      display: flex;
+      flex-direction: column;
+      align-items: center ;
+    }
+    
+    .ewaybill__top6__img :hover{
+      border-radius: 20px;
+      background-color: yellow;
+    }
+    
+    .ewaybill__top6__para > p{
+      font-weight: 500;
+      font-style: italic;
+      text-align: center;
+    
+    }
+    
+    .ewaybill__FAQ{
+      margin-top: 1%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    
+    .ewaybill__info__left{
+      flex: 0.2;
+      display: flex;
+      padding: 1% 1%;
+      flex-direction: column;
+      align-items: center;
+      overflow-y: auto;
+      height: 500px;
+      
+    }
+    
+    .ewaybill__info__left__link{
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.0rem;
+      text-align: center;
+      border: 3px solid #00EA3D ;
+      border-radius: 10px;
+      width: 100%;
+      margin: 5% 5%;
+      padding-bottom: 2%;
+    
+    }
+    
+    
+    .ewaybill__info__left__link > a{
+      padding: 5px 5px ;
+      color: black;
+      text-decoration: none ;
+    }
+    
+    .ewaybill__info__page{
+      overflow-y: auto;
+      height: 500px;
+      scroll-behavior: smooth;
+      margin: 0px;
+      flex: 0.6;
+    }
+    
+    .ewaybill__info__right{
+      flex: 0.1;
+    }
+    
+    .ewaybill__info__header{
+      text-align: center;
+      font-family: 'Merriweather', serif;
+      font-size: 2rem;
+      padding-bottom: 2%;
+    }
+    
+    .ewaybill__box{
+      color: black;
+    } 
+    .ewaybill__question{
+      padding: 5px 5px ;
+      font-weight: bolder;
+      font-size: 1rem;
+      text-align: left;  
+      font-family: 'Oswald', sans-serif;
+      text-align: left;
+  
+    }
+    
+    .ewaybill__answer{
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.0rem;
+      text-align: left;
+    }
+  
+   
+    .ewaybill__info_copywrtie{
+      font-size: 1.0rem;
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+    }
+    
+     .ewaybill__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+      .ewaybill__info{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+      }
+    
+      .ewaybill__info__header{
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-size: 2em;
+        margin-top: 5%;
+        
+      }
+      
+      .ewaybill__info__para{
+        font-family: 'Open Sans Condensed', sans-serif;
+        line-height: 200%;
+        padding: 5%;
+      }
+      
+      
+      @media screen and (max-width: 960px){
+    
+        .ewaybill__top6 {
+          display: block;
+        }
+    
+        .ewaybill__info__right{
+          display: none;
+        }
+    
+        .ewaybill__top6{
+          display: none;
+        }
+        
+      .ewaybill__info__page{
+        width: 100%;
+        height: 500px;
+        margin: 0px;
+        flex: 0.9;
+      }
+    
+        .ewaybill__info__left{
+          display: none;
+        }
+        .item {
+          width: 100%;
+          background-color: #3b3b3b;
+        }
+        
+        .ewaybill__info__header{
+          font-family: 'Merriweather', serif;
+          font-size: 1.5rem;
+        }
+        
+        .ewaybill__info__para{
+          font-size: 0.7rem;
+          line-height: 150%;
+        }
+    
+        
+    }

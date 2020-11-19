@@ -8,6 +8,12 @@ import GstFiling from './GstFiling';
 import Menu from './Menu';
 import Fssai from './Fssai';
 import Msme from './Msme';
+import Ewaybill from './Ewaybill';
+import BecomeAPartner from './BecomeAPartner';
+import Pan from './Pan';
+
+
+
 
 
 function App() {
@@ -33,6 +39,27 @@ function App() {
             <Header />
             <Menu />
             <Msme />
+            <Header />
+        </Route>
+
+        <Route path="/E-way-bill">
+            <Header />
+            <Menu />
+            <Ewaybill />
+            <Header />
+        </Route>
+
+        <Route path="/get-franchise">
+            <Header />
+            <Menu />
+            <BecomeAPartner />
+            <Header />
+        </Route>
+
+        <Route path="/PAN">
+            <Header />
+            <Menu />
+            <Pan />
             <Header />
         </Route>
 

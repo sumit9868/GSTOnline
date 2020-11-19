@@ -29,17 +29,12 @@ function Menu() {
 
                 <Link className="second__links" to="/MSME">
                     <span className="second__links">
-                        MSME
+                        MSME / UDYAM
                     </span >
                 </Link>
 
 
-                <Link className="second__links" to="/UDYAM">
-                    <span className="second__links">
-                        UDYAM
-                    </span >
-                </Link>
-
+              
                 <Link className="second__links" to="/E-way-Bill">
                     <span className="second__links">
                         E Way Bill
@@ -52,20 +47,10 @@ function Menu() {
                     </span >
                 </Link>
 
-                {/* <Link className="second__links" to="/Digital-Signature">
-                    <span className="second__links">
-                        Digital Signature
-                    </span >
-                </Link> */}
-
-                {/* <Link className="second__links" to="/Invoice-Generation">
-                    <span className="second__links">
-                        Invoice generation
-                    </span >
-                </Link> */}
+                
                 <div className="phone">
-                <CallIcon className="call" />
-                <span className="second__links">9315744106</span>
+                    <CallIcon className="call" />
+                    <span className="second__links">9315744106</span>
                 </div>
 
             </div>

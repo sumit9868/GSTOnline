@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CSS/GstFiling.css'
-import gstposter from '../Media/gstPoster.png'
+import gstposter from '../Media/gstPoster.jpg'
 import img from '../Media/wallet.png'
 import Offers from "./Offers";
 
@@ -142,8 +142,6 @@ function GstFiling() {
         </div>
 
       </div>
-
-
 
       <div className="FAQ">
 

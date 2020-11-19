@@ -162,7 +162,7 @@
 
 .sevices{
     overflow-y: auto;
-    height: 1px;
+    height: 0.5px;
 }
 
 @media screen and (max-width: 960px){

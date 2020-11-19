@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import InputField from './InputField';
 import img1 from '../Media/fssaiCover4.jpg'
-import fssaiposter from '../Media/fssaiPoster.png'
+import fssaiposter from '../Media/fssaiPoster.jpg'
 import img from '../Media/wallet.png'
 import '../CSS/Fssai.css'
 import { db } from "./firebase.js";
@@ -52,7 +52,7 @@ function Fssai() {
                 alert(error.message);
             });
     }
-
+ 
     return (
         <div className="fssai">
 

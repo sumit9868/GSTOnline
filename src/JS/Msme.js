@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import InputField from './InputField';
 import img1 from '../Media/msmeCover.jpg'
-import msmeposter from '../Media/MSMEPoster.png'
+import msmeposter from '../Media/MSMEPoster.jpg'
 import img from '../Media/wallet.png'
 import '../CSS/Msme.css'
 import { db } from "./firebase.js";
@@ -37,7 +37,7 @@ function Msme() {
         }
 
 
-        db.collection("Fssai")
+        db.collection("MSME")
             .add({
                 name: data.name,
                 number: data.number,
@@ -232,7 +232,7 @@ function Msme() {
             Rural banks from regional sector | 
             Financial companies other than banks | 
             Private Sector Banks | 
-            Institutions offering micro finance | 
+            Institutions offering micro finance 
             </p>
 
         </div>
@@ -379,19 +379,19 @@ function Msme() {
                                     <th>Small</th>
                                     <th>Medium</th>
                                 </tr>
-                                <tr>
+                                <tr>    
                                     <td>Manufacturing</td>
                                     <td>Investment </td>
-                                    <td> Less than Rs.25 lakh </td>
-                                    <td> Less than Rs.5 crore </td>
-                                    <td> Less than Rs.10 crore </td>
+                                    <td> &lt;  Rs.25 lakh </td>
+                                    <td> &lt; Rs.5 crore </td>
+                                    <td> &lt; Rs.10 crore </td>
                                 </tr>
                                 <tr>
                                     <td>Services</td>
                                     <td>Investment </td>
-                                    <td> Less than Rs.10 lakh </td>
-                                    <td> Less than Rs.2 crore </td>
-                                    <td> Less than Rs.5 crore </td>
+                                    <td> &lt; Rs.10 lakh </td>
+                                    <td> &lt; Rs.2 crore </td>
+                                    <td> &lt; Rs.5 crore </td>
                                 </tr>
                                 </table>
 
@@ -414,9 +414,9 @@ function Msme() {
                                 </tr>
                                 <tr>
                                     <td>Investment & Annual Turnover</td>
-                                    <td>  Less than Rs.1 crore  & Less than Rs.5 crore</td>
-                                    <td>  Less than Rs.10 crore & Less than Rs.50 crore </td>
-                                    <td>  Less than Rs.50 crore & Less than Rs.250 crore </td>
+                                    <td> &lt; Rs.1 crore  & &lt; Rs.5 crore</td>
+                                    <td> &lt; Rs.10 crore & &lt; Rs.50 crore </td>
+                                    <td> &lt; Rs.50 crore & &lt; Rs.250 crore </td>
                                 </tr>
                           
                                 </table>
