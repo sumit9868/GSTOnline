@@ -1,6 +1,7 @@
 import React from 'react'
 import '../CSS/App.css';
 import Header from './Header';
+import Footer from './Footer';
 import Carousel from './Carousel';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from './Home';
@@ -25,42 +26,42 @@ function App() {
             <Header />
             <Menu />
             <GstFiling />
-            <Header />
+            <Footer />
         </Route>
 
         <Route path="/fssai">
             <Header />
             <Menu />
             <Fssai />
-            <Header />
+            <Footer />
         </Route>
 
         <Route path="/MSME">
             <Header />
             <Menu />
             <Msme />
-            <Header />
+            <Footer />
         </Route>
 
         <Route path="/E-way-bill">
             <Header />
             <Menu />
             <Ewaybill />
-            <Header />
+            <Footer />
         </Route>
 
         <Route path="/get-franchise">
             <Header />
             <Menu />
             <BecomeAPartner />
-            <Header />
+            <Footer />
         </Route>
 
         <Route path="/PAN">
             <Header />
             <Menu />
             <Pan />
-            <Header />
+            <Footer />
         </Route>
 
           <Route path="/">
@@ -68,7 +69,7 @@ function App() {
             <Menu />
             <Carousel />
             <Home />
-            <Header />
+            <Footer />
           </Route>
         </Switch>
       </div>
