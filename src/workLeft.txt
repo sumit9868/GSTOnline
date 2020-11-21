@@ -1,6 +1,6 @@
 header css
 form on page 
-footer 
+footer conetnt css
 home css
 keyword decoration
 charts poster imgs for content 
