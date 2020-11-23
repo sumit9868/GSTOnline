@@ -17,7 +17,7 @@ function Header() {
                         
 
                         <div className="phone">
-                            <span className="email">services@gstinsuvidhakendra.com</span>
+                            <span className="header__email">services@gstinsuvidhakendra.com</span>
                         </div>
 
                     </div>

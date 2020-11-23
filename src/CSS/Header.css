@@ -31,12 +31,12 @@
 }
 
 .underlinks{
-    font-size: 1.9rem;
+    font-size: 0.9rem;
     font-family: 'Poppins', sans-serif;
     color: black;
 }
 
-.email{
+.header__email{
     margin-top: 2%;
     font-size: 0.7rem;
     font-family: 'Poppins', sans-serif;
@@ -90,7 +90,7 @@
         font-size: 0.5rem;
     }
 
-    .email{
+    .header__email{
         font-size: 0.5rem;
     }
     
@@ -103,7 +103,12 @@
     .header__middle{
         display: none;
     }
-  
+
+    .header__links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 
   
     .links{

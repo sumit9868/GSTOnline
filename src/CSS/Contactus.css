@@ -75,3 +75,59 @@
     font-size: 1.0rem;
     font-family: 'Poppins', sans-serif;
 }
+
+@media screen and (max-width: 960px){
+
+    .contactus{
+        height: 5vh; 
+    }
+    
+    .address__icon{
+        font-size: 1.0rem !important;
+    }
+    
+    .address{
+        font-size: 0.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+
+    .email__icon{
+        /* margin-top: 3%; */
+        font-size: 1.0rem !important;
+    }
+    
+    .email{
+        font-size: 0.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .contact__icon{
+        margin-top: 3%;
+        font-size: 1.0rem !important;
+    }
+    
+    .contact{
+        
+        font-size: 0.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .contactus__whatsapp{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .whatsapp__icon{
+        font-size: 1.0rem !important;
+    }
+    
+    .whatsapp{
+        font-size: 0.5rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+
+} 

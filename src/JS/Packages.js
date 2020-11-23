@@ -4,7 +4,12 @@ import { db } from "./firebase.js";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import SaveIcon from "@material-ui/icons/Save";
-import op1 from '../Media/option1.jpg'
+import op1 from '../Media/basic.jpg'
+import op2 from '../Media/standard.jpg'
+import op3 from '../Media/premium.jpg'
+import op4 from '../Media/business.jpg'
+import op5 from '../Media/unlimited.jpg'
+
 
 function Packages() {
   const [email, setemail] = useState("");
@@ -146,24 +151,31 @@ function Packages() {
 
   return (
     <div className="package">
+
+      <span className="package__heading">Packages!!!</span>
+      <div className="package__content">
+
+   
       <div class="flip">
         <div class="front">
-        <img className="package__img" src={op1} alt="option1" />
-          <h1 class="text-shadow"></h1>
+          <img className="package__img" src={op1} alt="option1" />
         </div>
         <div class="back">
-          Register Now !!!
-          <form id="myform" onSubmit={save1}>
+          <div className="back__tagline">Register Now !!!</div>
+          <form id="myform" className="package__form"  onSubmit={save1}>
+            <label className="package__label">Name</label>
             <input
               type="text"
               onChange={(e) => setname(e.target.value)}
               placeholder="Name"
             />
+            <label className="package__label">Contact No.</label>
             <input
               type="text"
               onChange={(e) => setnumber(e.target.value)}
               placeholder="Contact No."
             />
+            <label className="package__label">Email</label>
             <input
               type="email"
               onChange={(e) => setemail(e.target.value)}
@@ -183,25 +195,26 @@ function Packages() {
           </form>
         </div>
       </div>
-
       <div class="flip">
         <div class="front">
-          <img className="package__img"src={op1} alt="option1" />
-          <h1 class="text-shadow"></h1>
+          <img className="package__img"src={op2} alt="option1" />
         </div>
         <div class="back">
-          Register Now !!!
-          <form id="myform" onSubmit={save2}>
+          <div className="back__tagline">Register Now !!!</div>
+          <form id="myform" className="package__form" onSubmit={save2}>
+            <label className="package__label">Name</label>
             <input
               type="text"
               onChange={(e) => setname(e.target.value)}
               placeholder="Name"
             />
+            <label className="package__label">Contact No.</label>
             <input
              type="text"
               onChange={(e) => setnumber(e.target.value)}
               placeholder="Contact No."
             />
+            <label className="package__label">Email</label>
             <input
               type="email"
               onChange={(e) => setemail(e.target.value)}
@@ -223,22 +236,24 @@ function Packages() {
       </div>
       <div class="flip">
         <div class="front">
-        <img className="package__img"src={op1} alt="option1" />
-          <h1 class="text-shadow"></h1>
+        <img className="package__img"src={op3} alt="option1" />
         </div>
         <div class="back">
-          Register Now !!!
-          <form id="myform" onSubmit={save3}>
+          <div className="back__tagline">Register Now !!!</div>
+          <form id="myform" className="package__form" onSubmit={save3}>
+            <label className="package__label">Name</label>
             <input
               type="text"
               onChange={(e) => setname(e.target.value)}
               placeholder="Name"
             />
+            <label className="package__label">Contact No.</label>
             <input
               type="text"
               onChange={(e) => setnumber(e.target.value)}
               placeholder="Contact No."
             />
+            <label className="package__label">Email</label>
             <input
               type="email"
               onChange={(e) => setemail(e.target.value)}
@@ -258,25 +273,26 @@ function Packages() {
           </form>
         </div>
       </div>
-
       <div class="flip">
         <div class="front">
-        <img className="package__img"src={op1} alt="option1" />
-          <h1 class="text-shadow"></h1>
+        <img className="package__img"src={op4} alt="option1" />
         </div>
         <div class="back">
-          Register Now !!!
-          <form id="myform" onSubmit={save4}>
+          <div className="back__tagline">Register Now !!!</div>
+          <form id="myform" className="package__form" onSubmit={save4}>
+            <label className="package__label">Name</label>
             <input
               type="text"
               onChange={(e) => setname(e.target.value)}
               placeholder="Name"
             />
+            <label className="package__label">Contact no.</label>
             <input
              type="text"
               onChange={(e) => setnumber(e.target.value)}
               placeholder="Contact No."
             />
+            <label className="package__label">Email</label>
             <input
               type="email"
               onChange={(e) => setemail(e.target.value)}
@@ -296,26 +312,27 @@ function Packages() {
           </form>
         </div>
       </div>
-
       <div class="flip">
         <div class="front">
-        <img className="package__img"src={op1} alt="option1" />
-          <h1 class="text-shadow"></h1>
+        <img className="package__img"src={op5} alt="option1" />
         </div>
 
         <div class="back">
-          Register Now !!!
-          <form id="myform" onSubmit={save5}>
+          <div className="back__tagline">Register Now !!!</div>
+          <form id="myform" className="package__form" onSubmit={save5}>
+            <label className="package__label">Name</label>
             <input
               type="text"
               onChange={(e) => setname(e.target.value)}
               placeholder="Name"
             />
+            <label className="package__label">Contact No.</label>
             <input
               type="text"
               onChange={(e) => setnumber(e.target.value)}
               placeholder="Contact No."
             />
+            <label className="package__label">Email</label>
             <input
               type="email"
               onChange={(e) => setemail(e.target.value)}
@@ -334,6 +351,8 @@ function Packages() {
             </Button>
           </form>
         </div>
+      </div>
+    
       </div>
     </div>
   );

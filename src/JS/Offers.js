@@ -59,7 +59,7 @@ function Offers() {
              <img src={img} alt="gstbanner" />
 
             </div>
-
+{/* 
             <div className="gst__left">
 
                 <div className="home__tagline">
@@ -108,8 +108,10 @@ function Offers() {
                     </form>
                 </div>
 
-            </div>
-        </div>
+            </div>*/ }
+
+
+        </div> 
     )
 }
 

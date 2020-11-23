@@ -17,7 +17,7 @@ function GstFiling() {
 
         <span className=" top6__heading">GST REGISTRATION & FILING</span>
 
-        <div className="top6__part1">
+        <div className="top6__content">
 
           <div className="top6__box">
 
@@ -27,7 +27,7 @@ function GstFiling() {
 
             </div>
 
-            <span> Who is eligible for GST registration? </span>
+            <div className="top6__box__question"> Who is eligible for GST registration? </div>
 
             <div className="top6__para">
               <p>
@@ -45,7 +45,7 @@ function GstFiling() {
 
             </div>
 
-            <span> What is GST registration? </span>
+            <div className="top6__box__question"> What is GST registration? </div>
 
             <div className="top6__para">
               <p>
@@ -64,7 +64,7 @@ function GstFiling() {
 
             </div>
 
-            <span> Documents required for GST </span>
+            <div className="top6__box__question"> Documents required for GST </div>
 
             <div className="top6__para">
               <p>
@@ -76,9 +76,8 @@ function GstFiling() {
 
           </div>
 
-        </div>
+        
 
-        <div className="top6__part2">
 
           <div className="top6__box">
 
@@ -88,7 +87,7 @@ function GstFiling() {
 
             </div>
 
-            <span> How many parts of GST are there? </span>
+            <div  className="top6__box__question"> How many parts of GST are there? </div>
 
             <div className="top6__para">
               <p>
@@ -108,7 +107,7 @@ function GstFiling() {
 
             </div>
 
-            <span> Products GST is not applicable? </span>
+            <div className="top6__box__question"> Products GST is not applicable? </div>
 
             <div className="top6__para">
               <p>
@@ -129,7 +128,7 @@ function GstFiling() {
 
             </div>
 
-            <span> What is GST return filing? </span>
+            <div className="top6__box__question"> What is GST return filing? </div>
 
             <div className="top6__para">
               <p>
@@ -142,8 +141,9 @@ function GstFiling() {
           </div>
 
         </div>
-
+        
       </div>
+
 
       <div className="FAQ">
 
@@ -1194,6 +1194,7 @@ function GstFiling() {
 
 
       </div>
+      
 
     </div>
 
