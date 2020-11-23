@@ -60,7 +60,7 @@ function Offers() {
 
             </div>
 
-            <div className="home__left">
+            <div className="gst__left">
 
                 <div className="home__tagline">
                     <span> Today's Offer !!! </span>

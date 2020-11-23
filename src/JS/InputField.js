@@ -31,13 +31,13 @@ const InputField = forwardRef((props, ref) => {
         switch (pair[0]) {
           case "min":
             if (value.length < pair[1]) {
-              setError(`This field must be at least ${pair[1]} charactesr long`);
+              setError(`This field must be at least ${pair[1]} character long`);
               return false
             }
             break;
           case "max":
             if (value.length > pair[1]) {
-              setError(`This field must be no longer than ${pair[1]} charactesr long`);
+              setError(`This field must be no longer than ${pair[1]} character long`);
               return false;
             }
             break;

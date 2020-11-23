@@ -12,6 +12,7 @@ import Msme from './Msme';
 import Ewaybill from './Ewaybill';
 import BecomeAPartner from './BecomeAPartner';
 import Pan from './Pan';
+import Contactus from './Contactus';
 
 
 
@@ -27,6 +28,8 @@ function App() {
             <Menu />
             <GstFiling />
             <Footer />
+            {/* <Header /> */}
+
         </Route>
 
         <Route path="/fssai">
@@ -34,6 +37,8 @@ function App() {
             <Menu />
             <Fssai />
             <Footer />
+            {/* <Header /> */}
+
         </Route>
 
         <Route path="/MSME">
@@ -41,6 +46,8 @@ function App() {
             <Menu />
             <Msme />
             <Footer />
+            {/* <Header /> */}
+
         </Route>
 
         <Route path="/E-way-bill">
@@ -48,6 +55,8 @@ function App() {
             <Menu />
             <Ewaybill />
             <Footer />
+            {/* <Header /> */}
+
         </Route>
 
         <Route path="/get-franchise">
@@ -55,6 +64,8 @@ function App() {
             <Menu />
             <BecomeAPartner />
             <Footer />
+            {/* <Header /> */}
+
         </Route>
 
         <Route path="/PAN">
@@ -62,14 +73,19 @@ function App() {
             <Menu />
             <Pan />
             <Footer />
+            {/* <Header /> */}
+
         </Route>
 
           <Route path="/">
             <Header />
             <Menu />
+            <Contactus />
             <Carousel />
             <Home />
             <Footer />
+            {/* <Header /> */}
+
           </Route>
         </Switch>
       </div>

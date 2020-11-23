@@ -7,8 +7,9 @@
 }
 
 
+
 .offers__banner__left{
-    flex: 0.7;
+    flex: 0.6;
     display: flex;
     flex-direction: column;
 }
@@ -16,6 +17,15 @@
 .offers__banner__left > img {
     height: 100%;
     width: 100%;
+}
+.gst__left{
+    flex: 0.2;
+    background-color:  rgb(255,153,51);
+    margin-bottom: 10%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
 }
 
 .oldPrice{
@@ -32,46 +42,6 @@
 }
   
 
-  .input-wrapper {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    width: 360px;
-  }
-  
-  .inputFieldInput{
-      margin: 0px 5% ;
-      width: 300px;
-  }
-  
-  .input-wrapper label {
-    color: white;
-    margin: 0px 5% ;
-    margin-bottom: 5px;
-    font-weight: bold;
-    width: 100%;
-  }
-  
-  .input-wrapper input {
-    background-color: white !important;
-    color: black !important ;
-    border: unset;
-    border-radius: 10px;
-    padding: 10px;
-    outline: none;
-    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.1),
-    inset -3px -3px 5px rgba(241, 255, 255, 0.5);
-  }
-  
-
-  
-  .error {
-    margin-top: 10px;
-    margin-left: 8%;
-    font-weight: bold;
-    font-style: italic;
-    color: #b60000;
-  }
 
 
 @media screen and (max-width: 960px){

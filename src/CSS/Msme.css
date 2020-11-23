@@ -17,10 +17,15 @@ table, th, td {
     flex-direction: column;
 }
 
+.msme__offers__banner__left > img{
+  height: 80%;
+  width: 100%;
+
+}
 
 
 .msme__left{
-    flex: 0.2;
+    flex: 0.25;
     background-color: #1212a0;
     height: max-content;
     margin-bottom: 10%;
