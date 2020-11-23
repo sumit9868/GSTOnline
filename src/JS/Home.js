@@ -16,30 +16,6 @@ import img10 from '../Media/ewaybill.jpg'
 
 function Home() {
 
-    var modal = document.getElementById("myModal");
-
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks the button, open the modal 
-    btn = () => {
-        modal.style.display = "block";
-    }
-
-    // When the user clicks on <span> (x), close the modal
-    span = ()  => {
-        modal.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
 
     const history = useHistory();
     const inputRefs = React.useRef([
@@ -77,11 +53,8 @@ function Home() {
                 timestamp: new Date().getTime(),
             })
             .then(() => {
-
-                modal.style.display="block";
-                // alert(data.name);
-                // alert(data.number);
-                // alert(data.email);
+                alert("Info Saved");
+                history.replace("/");
 
                 document.getElementById("gstform").reset();
             })
@@ -94,15 +67,6 @@ function Home() {
 
     return (
         <>
-        <div id="myModal" className="modal">
-
-            <div className="modal-content">
-                <span onClick={span} className="close">&times;</span>
-                <div className="popup">
-                  Thank you for filling the form. We'll contact you shortly !!! You can reachout to us on 9315744106
-                </div>
-            </div>
-        </div>
         <div className="home">
             <div className="home__form__services">
                 <div className="home__left">
@@ -117,7 +81,7 @@ function Home() {
                     <div className="home__outterform">
                         <form onSubmit={submitForm} id="gstform" className="home__form">
 
-                            <h2>Hurry up!!! Abhijeeeetttttt Register Now  </h2>
+                            <h2>Hurry up!!! Register Now  </h2>
                             <InputField
                                 id="field1"
                                 ref={inputRefs.current[0]}

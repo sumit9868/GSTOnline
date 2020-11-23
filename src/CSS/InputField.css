@@ -1,0 +1,40 @@
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .inputFieldInput{
+      margin: 0px 5% ;
+      width: 85%
+  }
+  
+  .input-wrapper label {
+    color: white;
+    margin: 0px 5% ;
+    margin-bottom: 5px;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  .input-wrapper input {
+    background-color: white !important;
+    color: black !important ;
+    border: unset;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.1),
+    inset -3px -3px 5px rgba(241, 255, 255, 0.5);
+  }
+  
+
+  
+  .error {
+    margin-top: 10px;
+    margin-left: 8%;
+    font-weight: bold;
+    font-style: italic;
+    color: #b60000;
+  }

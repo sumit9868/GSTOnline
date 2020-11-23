@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "gstonlinefiling-1a1c4"
+  },
+  "targets": {
+    "gstonlinefiling-1a1c4": {
+      "hosting": {
+        "user": [
+          "gstonlinefiling-1a1c4"
+        ]
+      }
+    }
   }
 }

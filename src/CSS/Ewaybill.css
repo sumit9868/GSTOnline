@@ -16,15 +16,18 @@ table, th, td {
       display: flex;
       flex-direction: column;
   }
-  
-  .ewaybill__offers__banner__left > img {
-      height: 585px;
+
+  .ewaybill__offers__banner__left > img{
+    height: 80%;
+    width: 100%;
+
 }
 
   
   
+  
   .ewaybill__left{
-      flex: 0.2;
+      flex: 0.25;
       background-color: #00EA3D;
       height: max-content;
       margin-bottom: 10%;

@@ -14,9 +14,15 @@
     flex-direction: column;
 }
 
+.fssai__offers__banner__left > img{
+  height: 80%;
+  width: 100%;
+
+}
+
 
 .fssai__left{
-    flex: 0.2;
+    flex: 0.25;
     background-color: pink;
     height: max-content;
     margin-bottom: 10%;

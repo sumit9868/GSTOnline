@@ -1,0 +1,77 @@
+.contactus{
+    background-color: #E3CD81FF;
+
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh; 
+}
+
+.contactus__address{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.address__icon{
+    font-size: 2.0rem !important;
+}
+
+.address{
+    font-size: 1.0rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactus__email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.email__icon{
+    margin-top: 3%;
+    font-size: 2.0rem !important;
+}
+
+.email{
+    font-size: 1.0rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactus__contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact__icon{
+    margin-top: 3%;
+    font-size: 2.0rem !important;
+}
+
+.contact{
+    
+    font-size: 1.0rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactus__whatsapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.whatsapp__icon{
+    font-size: 2.0rem !important;
+}
+
+.whatsapp{
+    font-size: 1.0rem;
+    font-family: 'Poppins', sans-serif;
+}
