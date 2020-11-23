@@ -2,47 +2,23 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../CSS/Footer.css";
 import logo from "../Media/logo2.png";
-import emblem from "../Media/emblem.png";
 
 function Footer() {
   return (
     <nav className="footer">
       <div className="footer__upper">
-        <div className="footer__logo1">
           <Link className="footer__logo" to="/home">
             <img src={logo} alt=" company logo" />
             <div className="footer__logo__text">
-              <span className="links"> GST Suvidha Kendra </span>
-              <span className="underlinks"> An Authorised GSP</span>
-
+              <div className="links"> GST Suvidha Kendra </div>
+              <div className="underlinks"> An Authorised GSP</div>
               <div className="phone">
                 <span className="email">services@gstinsuvidhakendra.com</span>
               </div>
             </div>
           </Link>
-        </div>
-
-        <div className="footer__middle">
-          <img src={emblem} alt="emblem" />
-
-          <span>Goods and Services Tax</span>
-        </div>
+          <div className="footer__tag__line">Goods and Services Tax</div>
       </div>
-
-      {/* <div className="footer__links">
-
-                <Link className="links" to="/getfranchise">
-                    <span className="links">
-                        Become a Partner
-                        </span >
-                </Link>
-
-                <Link className="links" to="/BCA">
-                    <span className="links">
-                        FREE Billing Sofware
-                        </span >
-                </Link>
-            </div> */}
 
       <div className="footer__bottom">
         <Link className="bottom__link" to="/gst">
@@ -51,7 +27,7 @@ function Footer() {
 </div>
           <div className="bottom__services">gst cancelation</div>
           <div className="bottom__services">
-gst return filing</div>
+            gst return filing</div>
         </Link>
         <Link className="bottom__link" to="/fssai">
           <div>FSSAI</div>
@@ -64,7 +40,7 @@ gst return filing</div>
         <Link className="bottom__link" to="/e-bill">
           <div>E Way Bill</div>
           <div className="bottom__services">
-e way bill registration
+            e way bill registration
 </div>
         </Link>
         <Link className="bottom__link" to="/pan">
