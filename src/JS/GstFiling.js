@@ -3,16 +3,15 @@ import '../CSS/GstFiling.css'
 import gstposter from '../Media/gstPoster.jpg'
 import img from '../Media/wallet.png'
 import Offers from "./Offers";
-import Tarrif from "./Tarrif";
-
+import Packages from './Packages';
 
 function GstFiling() {
   return (
     <div className="gstfiling">
 
       <Offers />
-      <Tarrif />
-
+      
+      <Packages />
 
       <div className="top6">
 
@@ -1195,7 +1194,6 @@ function GstFiling() {
 
 
       </div>
-
 
     </div>
 

@@ -8,6 +8,7 @@ import img from '../Media/wallet.png'
 import '../CSS/Pan.css'
 import { db } from "./firebase.js";
 
+
 function Pan() {
 
     const history = useHistory();
