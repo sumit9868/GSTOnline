@@ -1,9 +1,9 @@
 import React from "react";
 import '../CSS/Carousel.css';
-import banner1 from '../Media/banner1.jpg';
-import banner3 from '../Media/banner3.jpg';
-import bannerE from '../Media/bannerE.jpg';
-import bannerMSME from '../Media/bannerMSME.jpg';
+import banner1 from '../Media/banner1.webp';
+import banner3 from '../Media/banner3.webp';
+import bannerE from '../Media/bannerE.webp';
+import bannerMSME from '../Media/bannerMSME.webp';
 
 function Carousel(){
 

@@ -4,11 +4,11 @@ import Button from "@material-ui/core/Button";
 import InputField from "./InputField";
 import { db } from "./firebase.js";
 import { Link, useHistory } from "react-router-dom";
-import img1 from "../Media/fssai.jpg";
-import img2 from "../Media/gst.jpg";
-import img5 from "../Media/msme.jpg";
-import img9 from "../Media/pan.jpg";
-import img10 from "../Media/ewaybill.jpg";
+import img1 from "../Media/fssai.webp";
+import img2 from "../Media/gst.webp";
+import img5 from "../Media/msme.webp";
+import img9 from "../Media/pan.webp";
+import img10 from "../Media/ewaybill.webp";
 import Keywords from "./Keywords.js"
 function Home() {
 

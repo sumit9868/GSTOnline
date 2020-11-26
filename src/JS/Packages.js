@@ -4,11 +4,11 @@ import { db } from "./firebase.js";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import SaveIcon from "@material-ui/icons/Save";
-import op1 from '../Media/basic.jpg'
-import op2 from '../Media/standard.jpg'
-import op3 from '../Media/premium.jpg'
-import op4 from '../Media/business.jpg'
-import op5 from '../Media/unlimited.jpg'
+import op1 from '../Media/basic.webp'
+import op2 from '../Media/standard.webp'
+import op3 from '../Media/premium.webp'
+import op4 from '../Media/business.webp'
+import op5 from '../Media/unlimited.webp'
 
 
 function Packages() {

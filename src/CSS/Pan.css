@@ -109,6 +109,38 @@ table, th, td {
       width: 100%;
   
   }
+
+  .pan__left{
+    flex: 0.25;
+    height: fit-content;
+    margin: 10% 10%;
+    border-radius: 20px;
+  
+  }
+  
+  
+  .pan__tagline{
+   
+    margin: 4% 0%;
+    font-size: 1.7rem;
+  }
+  
+  
+  
+  .pan__para{
+    font-size: 1.2rem;
+    }
+  
+  .pan__form > h2{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .pan__price{
+    font-size: 1.5rem;
+  }
+  
+  
   
   }
   

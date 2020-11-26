@@ -12,11 +12,6 @@ import Msme from './Msme';
 import Ewaybill from './Ewaybill';
 import BecomeAPartner from './BecomeAPartner';
 import Pan from './Pan';
-import Contactus from './Contactus';
-
-
-
-
 
 function App() {
   return (
@@ -28,7 +23,6 @@ function App() {
             <Menu />
             <GstFiling />
             <Footer />
-            {/* <Header /> */}
 
         </Route>
 
@@ -37,7 +31,6 @@ function App() {
             <Menu />
             <Fssai />
             <Footer />
-            {/* <Header /> */}
 
         </Route>
 
@@ -46,7 +39,6 @@ function App() {
             <Menu />
             <Msme />
             <Footer />
-            {/* <Header /> */}
 
         </Route>
 
@@ -55,7 +47,6 @@ function App() {
             <Menu />
             <Ewaybill />
             <Footer />
-            {/* <Header /> */}
 
         </Route>
 
@@ -64,7 +55,6 @@ function App() {
             <Menu />
             <BecomeAPartner />
             <Footer />
-            {/* <Header /> */}
 
         </Route>
 
@@ -73,20 +63,17 @@ function App() {
             <Menu />
             <Pan />
             <Footer />
-            {/* <Header /> */}
 
         </Route>
 
           <Route path="/">
             <Header />
             <Menu />
-            <Contactus />
             <Carousel />
             <Home />
             <Footer />
-            {/* <Header /> */}
-
           </Route>
+
         </Switch>
       </div>
     </Router>

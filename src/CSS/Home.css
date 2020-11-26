@@ -118,7 +118,7 @@
 .home__banner {
   width: 100%;
   height: 350px;
-  background-image: url("../Media/banner.jpg");
+  background-image: url("../Media/banner.webp");
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
@@ -212,7 +212,7 @@
   .home__banner {
     width: 100%;
     height: 150px;
-    background-image: url("../Media/banner.jpg");
+    background-image: url("../Media/banner.webp");
     /* background-size: 100% 100%; */
     display: flex;
     flex-direction: column;
@@ -282,7 +282,7 @@
     .home__banner{
         width: 100%;
         /* height: 150px; */
-        background-image: url("../Media/banner.jpg");
+        background-image: url("../Media/banner.webp");
         background-size: 100% 100%;
         display: flex;
         flex-direction: column;
@@ -326,15 +326,5 @@
         background: linear-gradient(90deg, rgba(255,153,51,1) 0%, rgba(255,255,255,1) 50%, rgba(19,136,8,1) 100%);    
         
     }
-    
-
-    /* padding: 3% 3%;
-    background: rgb(255, 153, 51);
-    background: linear-gradient(
-      90deg,
-      rgba(255, 153, 51, 1) 0%,
-      rgba(255, 255, 255, 1) 50%,
-      rgba(19, 136, 8, 1) 100%
-    ); */
   }
 }

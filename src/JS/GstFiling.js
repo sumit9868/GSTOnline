@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CSS/GstFiling.css'
-import gstposter from '../Media/gstPoster.jpg'
+import gstposter from '../Media/gstPoster.webp'
 import img from '../Media/wallet.png'
 import Offers from "./Offers";
 import Packages from './Packages';
