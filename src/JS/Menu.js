@@ -8,7 +8,7 @@ function Menu() {
         <nav className="menu">
             <div className="header__second">
 
-            <Link className="second__links" to="/">
+                <Link className="second__links" to="/">
                     <span className="second__links">
                         Home
                     </span >
@@ -34,7 +34,7 @@ function Menu() {
                 </Link>
 
 
-              
+
                 <Link className="second__links" to="/E-way-Bill">
                     <span className="second__links">
                         E Way Bill
@@ -47,11 +47,18 @@ function Menu() {
                     </span >
                 </Link>
 
-                
                 <div className="phone">
-                    <CallIcon className="call" />
-                    <span className="second__links">9315744106</span>
+
+                    <span className="contact__icon">
+                        <CallIcon className="contact__icon" />
+                    </span>
+
+                    <span className="second__links">
+                        +91 9315744106
+                    </span>
+
                 </div>
+
 
             </div>
         </nav>

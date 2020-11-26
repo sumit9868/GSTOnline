@@ -13,10 +13,6 @@ import Ewaybill from './Ewaybill';
 import BecomeAPartner from './BecomeAPartner';
 import Pan from './Pan';
 
-
-
-
-
 function App() {
   return (
     <Router>
@@ -27,6 +23,7 @@ function App() {
             <Menu />
             <GstFiling />
             <Footer />
+
         </Route>
 
         <Route path="/fssai">
@@ -34,6 +31,7 @@ function App() {
             <Menu />
             <Fssai />
             <Footer />
+
         </Route>
 
         <Route path="/MSME">
@@ -41,6 +39,7 @@ function App() {
             <Menu />
             <Msme />
             <Footer />
+
         </Route>
 
         <Route path="/E-way-bill">
@@ -48,6 +47,7 @@ function App() {
             <Menu />
             <Ewaybill />
             <Footer />
+
         </Route>
 
         <Route path="/get-franchise">
@@ -55,6 +55,7 @@ function App() {
             <Menu />
             <BecomeAPartner />
             <Footer />
+
         </Route>
 
         <Route path="/PAN">
@@ -62,6 +63,7 @@ function App() {
             <Menu />
             <Pan />
             <Footer />
+
         </Route>
 
           <Route path="/">
@@ -71,6 +73,7 @@ function App() {
             <Home />
             <Footer />
           </Route>
+
         </Switch>
       </div>
     </Router>
