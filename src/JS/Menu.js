@@ -51,12 +51,10 @@ function Menu() {
 
                     <span className="contact__icon">
                         <CallIcon className="contact__icon" />
-                    </span>
-
-                    <span className="second__links">
-                        +91 9315744106
-                    </span>
-
+                    </span> 
+                    <a className="second__links" href={`tel: ${9315744106}`}>
+                    +91 9315744106
+                    </a>
                 </div>
 
 
