@@ -13,6 +13,7 @@ import Ewaybill from "./Ewaybill";
 import BecomeAPartner from "./BecomeAPartner";
 import Pan from "./Pan";
 import Thankyou from "./Thankyou";
+import Bca from "./Bca";
 
 function App() {
   return (
@@ -47,10 +48,19 @@ function App() {
             <Footer />
           </Route>
 
-          <Route path="/get-franchise">
+          <Route path="/getfranchise">
             <Header />
             <Menu />
+            <Carousel />
             <BecomeAPartner />
+            <Footer />
+          </Route>
+
+          <Route path="/bca">
+            <Header />
+            <Menu />
+            <Carousel />
+            <Bca />
             <Footer />
           </Route>
 

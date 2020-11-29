@@ -14,7 +14,6 @@ function Menu() {
                     </span >
                 </Link>
 
-
                 <Link className="second__links" to="/gst-filing">
                     <span className="second__links">
                         GST
@@ -33,8 +32,6 @@ function Menu() {
                     </span >
                 </Link>
 
-
-
                 <Link className="second__links" to="/E-way-Bill">
                     <span className="second__links">
                         E Way Bill
@@ -48,7 +45,6 @@ function Menu() {
                 </Link>
 
                 <div className="phone">
-
                     <span className="contact__icon">
                         <CallIcon className="contact__icon" />
                     </span> 
@@ -56,8 +52,7 @@ function Menu() {
                     +91 9315744106
                     </a>
                 </div>
-
-
+                
             </div>
         </nav>
     )
