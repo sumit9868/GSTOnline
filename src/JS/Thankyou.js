@@ -5,7 +5,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import { makeStyles } from "@material-ui/core/styles";
 import "../CSS/Thankyou.css";
 import logo from "../Media/logo2.png"
-import thankyoubanner from "../Media/thankyoubanner.png"
+import thankyoubanner from "../Media/thankyoubanner.webp"
 
 function Thankyou() {
   const useStyles = makeStyles((theme) => ({

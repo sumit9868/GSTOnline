@@ -20,7 +20,7 @@ function Footer() {
         <div className="footer__tag__line">Goods and Services Tax</div>
       </div>
 
-      <div className="footer__bottom">
+      {/* <div className="footer__bottom">
         <Link className="bottom__link" to="/gst-filing">
           <div className="bottom__services">GST registration
 </div>
@@ -43,7 +43,7 @@ function Footer() {
           <div className="bottom__services">pan registration
 </div>
         </Link>
-      </div>
+      </div> */}
     </nav>
   );
 }
