@@ -49,7 +49,6 @@ function Packages() {
           timestamp: new Date().getTime(),
         })
         .then(() => {
-        
           history.replace("/success");
         })
         .catch((error) => {
