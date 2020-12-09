@@ -57,23 +57,9 @@ function Bca() {
       <div className="home">
         <div className="home__form__services">
           <div className="home__left">
-            {/* <span className="home__tagline">
-              {" "}
-              Todays Offers <br />{" "}
-            </span> */}
             <span className="home__para">
               Get the Best Billing Software <br />
             </span>
-
-            <span className="home__newPrice">
-              {" "}
-              {/* <span className="home__oldPrice">₹1500</span> ₹499 <br />{" "} */}
-            </span>
-
-            <span className="home__para">
-              {/* Offer valid for today only <br /> */}
-            </span>
-
             <div className="home__outterform">
               <form onSubmit={submitForm} id="bcaform" className="home__form">
                 <h2>Hurry up!!! Register Now </h2>

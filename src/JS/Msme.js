@@ -46,7 +46,7 @@ function Msme() {
             })
             .then(() => {
                 alert("Info Saved");
-                history.replace("/");
+                history.replace("/success");
             })
             .catch((error) => {
                 alert(error.message);

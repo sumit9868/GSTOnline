@@ -75,10 +75,6 @@
     font-size: 0.8rem;
 }
 
-
-
-
-                
 @media screen and (max-width: 960px) {
 
     .footer{
@@ -87,7 +83,6 @@
     .footer__upper{
         display: flex;
         flex-direction: column;
-        /* background-color: red; */
         align-items: center;
     }
     .footer__logo{

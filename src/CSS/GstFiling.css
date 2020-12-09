@@ -179,18 +179,11 @@
   
   @media screen and (max-width: 960px){
 
-
-    /* .top6 {
-      display: block;
-    } */
-
     .info__right{
       display: none;
     }
 
-    /* .top6{
-      display: none;
-    } */
+
     
   .info__page{
     height: 500px;

@@ -50,7 +50,7 @@ function Home() {
             })
             .then(() => {
                 alert("Info Saved");
-                history.replace("/");
+                history.replace("/success");
 
                 document.getElementById("gstform").reset();
             })
