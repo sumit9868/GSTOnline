@@ -2,8 +2,8 @@ import React from 'react'
 import { useHistory } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import InputField from './InputField';
-import img1 from '../Media/msmeCover.jpg'
-import msmeposter from '../Media/MSMEPoster.jpg'
+import img1 from '../Media/msmeCover.webp'
+import msmeposter from '../Media/MSMEPoster.webp'
 import img from '../Media/wallet.png'
 import '../CSS/Msme.css'
 import { db } from "./firebase.js";
@@ -46,7 +46,7 @@ function Msme() {
             })
             .then(() => {
                 alert("Info Saved");
-                history.replace("/");
+                history.replace("/success");
             })
             .catch((error) => {
                 alert(error.message);

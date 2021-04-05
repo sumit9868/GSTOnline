@@ -111,6 +111,38 @@ table, th, td {
       width: 100%;
   
   }
+
+  .ewaybill__left{
+    flex: 0.25;
+    height: fit-content;
+    margin: 10% 10%;
+    border-radius: 20px;
+  
+  }
+  
+  
+  .ewaybill__tagline{
+   
+    margin: 4% 0%;
+    font-size: 1.7rem;
+  }
+  
+  
+  
+  .ewaybill__para{
+    font-size: 1.2rem;
+    }
+  
+  .ewaybill__form > h2{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .ewaybill__price{
+    font-size: 1.5rem;
+  }
+  
+  
   
   }
   

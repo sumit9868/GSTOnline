@@ -1,0 +1,49 @@
+[debug] [2020-12-09T15:05:21.245Z] ----------------------------------------------------------------------
+[debug] [2020-12-09T15:05:21.248Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:user
+[debug] [2020-12-09T15:05:21.248Z] CLI Version:   8.15.1
+[debug] [2020-12-09T15:05:21.248Z] Platform:      win32
+[debug] [2020-12-09T15:05:21.249Z] Node Version:  v12.18.4
+[debug] [2020-12-09T15:05:21.250Z] Time:          Wed Dec 09 2020 20:35:21 GMT+0530 (India Standard Time)
+[debug] [2020-12-09T15:05:21.250Z] ----------------------------------------------------------------------
+[debug] [2020-12-09T15:05:21.250Z] 
+[debug] [2020-12-09T15:05:21.268Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-09T15:05:21.269Z] > authorizing via signed-in user
+[debug] [2020-12-09T15:05:21.270Z] [iam] checking project gstonlinefiling-1a1c4 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-12-09T15:05:21.274Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-12-09T15:05:21.275Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-09T15:05:21.529Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Wed, 09 Dec 2020 15:05:21 GMT","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-09T15:05:21.574Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/gstonlinefiling-1a1c4:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-12-09T15:05:22.227Z] Error: EBUSY: resource busy or locked, rename 'C:\Users\asus\.config\configstore\firebase-tools.json.2330988587' -> 'C:\Users\asus\.config\configstore\firebase-tools.json'
+    at Object.renameSync (fs.js:741:3)
+    at Function.writeFileSync [as sync] (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:244:8)
+    at Configstore.set all [as all] (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:61:20)
+    at Configstore.set (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at Request._callback (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\fetchMOTD.js:42:39)
+    at Request.self.callback (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at Request.<anonymous> (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:315:20)
+    at Request.EventEmitter.emit (domain.js:483:12)
+    at IncomingMessage.<anonymous> (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:421:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1220:12)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2020-12-09T15:05:22.684Z] Error: EBUSY: resource busy or locked, rename 'C:\Users\asus\.config\configstore\firebase-tools.json.140178114' -> 'C:\Users\asus\.config\configstore\firebase-tools.json'
+    at Object.renameSync (fs.js:741:3)
+    at Function.writeFileSync [as sync] (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\write-file-atomic\index.js:244:8)
+    at Configstore.set all [as all] (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:61:20)
+    at Configstore.set (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\configstore\index.js:91:12)
+    at process.<anonymous> (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js:108:21)
+    at process.emit (events.js:327:22)
+    at process.exit (internal/process/per_thread.js:167:15)
+    at Timeout._onTimeout (C:\Users\asus\AppData\Roaming\npm\node_modules\firebase-tools\lib\errorOut.js:20:17)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -2,8 +2,8 @@ import React from 'react'
 import { useHistory } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import InputField from './InputField';
-import img1 from '../Media/pancardCover.jpg'
-import panposter from '../Media/panPoster.png'
+import img1 from '../Media/pancardCover.webp'
+import panposter from '../Media/panPoster.webp'
 import img from '../Media/wallet.png'
 import '../CSS/Pan.css'
 import { db } from "./firebase.js";
@@ -47,7 +47,7 @@ function Pan() {
             })
             .then(() => {
                 alert("Info Saved");
-                history.replace("/");
+                history.replace("/success");
             })
             .catch((error) => {
                 alert(error.message);

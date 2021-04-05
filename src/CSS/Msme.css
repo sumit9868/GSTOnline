@@ -110,6 +110,38 @@ table, th, td {
 
 }
 
+
+.msme__left{
+  flex: 0.25;
+  height: fit-content;
+  margin: 10% 10%;
+  border-radius: 20px;
+
+}
+
+
+.msme__tagline{
+ 
+  margin: 4% 0%;
+  font-size: 1.7rem;
+}
+
+
+
+.msme__para{
+  font-size: 1.2rem;
+  }
+
+.msme__form > h2{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.msme__price{
+  font-size: 1.5rem;
+}
+
+
 }
 
 

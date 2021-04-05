@@ -2,8 +2,8 @@ import React from 'react'
 import { useHistory } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import InputField from './InputField';
-import img1 from '../Media/fssaiCover4.jpg'
-import fssaiposter from '../Media/fssaiPoster.jpg'
+import img1 from '../Media/fssaiCover4.webp'
+import fssaiposter from '../Media/fssaiPoster.webp'
 import img from '../Media/wallet.png'
 import '../CSS/Fssai.css'
 import { db } from "./firebase.js";
@@ -46,7 +46,7 @@ function Fssai() {
             })
             .then(() => {
                 alert("Info Saved");
-                history.replace("/");
+                history.replace("/success");
             })
             .catch((error) => {
                 alert(error.message);

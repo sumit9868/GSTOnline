@@ -8,12 +8,11 @@ function Menu() {
         <nav className="menu">
             <div className="header__second">
 
-            <Link className="second__links" to="/">
+                <Link className="second__links" to="/">
                     <span className="second__links">
                         Home
                     </span >
                 </Link>
-
 
                 <Link className="second__links" to="/gst-filing">
                     <span className="second__links">
@@ -33,8 +32,6 @@ function Menu() {
                     </span >
                 </Link>
 
-
-              
                 <Link className="second__links" to="/E-way-Bill">
                     <span className="second__links">
                         E Way Bill
@@ -47,6 +44,15 @@ function Menu() {
                     </span >
                 </Link>
 
+                <div className="phone">
+                    <span className="contact__icon">
+                        <CallIcon className="contact__icon" />
+                    </span> 
+                    <a className="second__links" href={`tel: ${9315744106}`}>
+                    +91 9315744106
+                    </a>
+                </div>
+                
             </div>
         </nav>
     )

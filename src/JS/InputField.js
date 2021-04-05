@@ -11,8 +11,6 @@ const InputField = forwardRef((props, ref) => {
   }
 
   const validate = () => {
-    //return true if is valid 
-    //else return false
 
     if (props.validation) {
       const rules = props.validation.split("|");

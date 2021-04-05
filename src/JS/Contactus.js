@@ -14,7 +14,7 @@ function Contactus() {
                     <LocationOnIcon className="address__icon" />
                 </span>
                 <span className="address">
-                    C 49 Anoop Nagar Uttam Nagar, New Delhi 
+                   Anoop Nagar Uttam Nagar, New Delhi 
                 </span>
             </div>
 

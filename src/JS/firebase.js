@@ -1,7 +1,6 @@
 import firebase from "firebase";
 import "firebase/storage";
 
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyACeBBDccho0YfRvMJNazP6jYXi8DBSEks",
   authDomain: "gstonlinefiling-1a1c4.firebaseapp.com",
@@ -14,7 +13,6 @@ const firebaseConfig = {
 };
 
 
-// eslint-disable-next-line
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
 const auth = firebase.auth();

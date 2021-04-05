@@ -2,8 +2,8 @@ import React from 'react'
 import { useHistory } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import InputField from './InputField';
-import img1 from '../Media/ewaybillCover.jpg'
-import ewaybillposter from '../Media/ewaybillposter.jpg'
+import img1 from '../Media/ewaybillCover.webp'
+import ewaybillposter from '../Media/ewaybillposter.webp'
 import img from '../Media/wallet.png'
 import '../CSS/Ewaybill.css'
 import { db } from "./firebase.js";
@@ -46,7 +46,7 @@ function Ewaybill() {
             })
             .then(() => {
                 alert("Info Saved");
-                history.replace("/");
+                history.replace("/success");
             })
             .catch((error) => {
                 alert(error.message);
@@ -132,11 +132,11 @@ function Ewaybill() {
 
         </div>
 
-        <span> What is the e way Bill system? </span>
+        <span> What is the E Way Bill system? </span>
 
         <div className="ewaybill__top6__para">
             <p>
-            E-Way Bill is the short form of Electronic Way Bill. It is a unique document/bill, which is electronically generated for the specific consignment/movement of goods from one place to 
+            E Way Bill is the short form of Electronic Way Bill. It is a unique document/bill, which is electronically generated for the specific consignment/movement of goods from one place to 
             another, either inter-state or intra-state and of value more than INR 50,000, required under the current GST regime.  </p>
 
         </div>
@@ -150,12 +150,12 @@ function Ewaybill() {
 
         </div>
 
-        <span>Is EWAY Bill compulsory? </span>
+        <span>Is E Way Bill compulsory? </span>
 
         <div className="ewaybill__top6__para">
             <p>
-            E-Way Bill is electronically generated document required for interstate movements of goods having consignment value above INR 50,000
-            in all states of India including Delhi. It is mandatory to generate E-Way Bill from 1st April 2018 for transportation of goods from one state to other. </p>
+            E Way Bill is electronically generated document required for interstate movements of goods having consignment value above INR 50,000
+            in all states of India including Delhi. It is mandatory to generate E Way Bill from 1st April 2018 for transportation of goods from one state to other. </p>
 
         </div>
 
@@ -168,7 +168,7 @@ function Ewaybill() {
 
         </div>
 
-        <span> What is the validity of e way Bill? </span>
+        <span> What is the validity of E Way Bill? </span>
 
         <div className="ewaybill__top6__para">
             <p>
@@ -194,7 +194,7 @@ function Ewaybill() {
 
         </div>
 
-        <span>What happens if e way Bill is not generated? </span>
+        <span>What happens if E Way Bill is not generated? </span>
 
         <div className="ewaybill__top6__para">
             <p>
@@ -213,13 +213,13 @@ function Ewaybill() {
 
         </div>
 
-        <span>  Minimum amount for EWAY bill? </span>
+        <span>  Minimum amount for E Way Bill? </span>
 
         <div className="ewaybill__top6__para">
             <p>
             Rs 50,000 <br/>
-            Registered Person – Eway bill must be generated when there is a movement of goods of more than Rs 50,000 in value to or from a registered person. 
-            A Registered person or the transporter may choose to generate and carry eway bill even if the value of goods is less than Rs 50,000
+            Registered Person – E Way Bill must be generated when there is a movement of goods of more than Rs 50,000 in value to or from a registered person. 
+            A Registered person or the transporter may choose to generate and carry E Way Bill even if the value of goods is less than Rs 50,000
             </p>
 
         </div>
@@ -235,7 +235,7 @@ function Ewaybill() {
 
         </div>
 
-        <span> Types of e way bills are there? </span>
+        <span> Types of E Way Bills are there? </span>
 
         <div className="ewaybill__top6__para">
             <p>
@@ -262,7 +262,7 @@ function Ewaybill() {
 
                         <span className="ewaybill__info__left__link">
                             <a href="#1">
-                            Q1.What is a eWay Bill?
+                            Q1.What is a E Way Bill?
                             </a>
                         </span>
 
@@ -270,7 +270,7 @@ function Ewaybill() {
 
                         <span className="ewaybill__info__left__link">
                             <a href="#2">
-                            Q2.When is a eWay Bill be issued?
+                            Q2.When is a E Way Bill be issued?
                             </a>
                         </span>
 
@@ -278,7 +278,7 @@ function Ewaybill() {
 
                         <span className="ewaybill__info__left__link">
                             <a href="#3">
-                            Q3.Who should generate a eWay Bill?
+                            Q3.Who should generate a E Way Bill?
                             </a>
                         </span>
 
@@ -286,13 +286,13 @@ function Ewaybill() {
 
                         <span className="ewaybill__info__left__link">
                             <a href="#4">
-                            Q4. Validity of eWay Bill
+                            Q4. Validity of E Way Bill
                            </a>
                         </span>
 
                         <span className="ewaybill__info__left__link">
                             <a href="#5">
-                            Q5.List of documents or Details required for e Way Bill generation
+                            Q5.List of documents or Details required for E Way Bill generation
                             </a>
                         </span>
 
@@ -303,17 +303,17 @@ function Ewaybill() {
 
                         <div className="ewaybill__info__header">
 
-                            Learn more about E-way Bill 
+                            Learn more about E Way Bill 
 
                         </div>
 
                         <div className="ewaybill__box">
 
-                            <span id="1" className="ewaybill__question"> Q1. What is a eWay Bill? <br /> </span>
+                            <span id="1" className="ewaybill__question"> Q1. What is a E Way Bill? <br /> </span>
 
 
-                            <span className="ewaybill__answer">EWay Bill is an Electronic Way bill which is required for the movement of products to be generated on the eWay Bill Portal. A GST registered person is not authorized to transport goods using a vehicle if its exceeds Rs. 50,000 (Single Invoice/bill/delivery challan) without an e-way bill that's generated on ewaybillgst.gov.in.
-                                Apart from this govt site, Eway bill also can be generated or cancelled through SMS, Android App and by site-to-site integration through API for the purpose of making it easy to access. 
+                            <span className="ewaybill__answer">EWay Bill is an Electronic Way bill which is required for the movement of products to be generated on the E Way Bill Portal. A GST registered person is not authorized to transport goods using a vehicle if its exceeds Rs. 50,000 (Single Invoice/bill/delivery challan) without an e-way bill that's generated on ewaybillgst.gov.in.
+                                Apart from this govt site, E Way Bill also can be generated or cancelled through SMS, Android App and by site-to-site integration through API for the purpose of making it easy to access. 
                                 A unique Eway Bill Number (EBN) is generated and allocated to the supplier, recipient, and therefore the transporter for the easy transport of the goods.
                             </span>
 
@@ -323,7 +323,7 @@ function Ewaybill() {
 
                         <div className="ewaybill__box">
 
-                            <span id="2" className="ewaybill__question">Q2 When is a eWay Bill be issued? <br /> </span>
+                            <span id="2" className="ewaybill__question">Q2 When is a E Way Bill be issued? <br /> </span>
 
 
                             <span className="ewaybill__answer">
@@ -361,8 +361,8 @@ function Ewaybill() {
                                     
                                 </li>
 
-                                Therefore, eWay Bills must be generated on the common portal for of these sorts of movements. For certain specified Goods, 
-                                the eway bill must be generated mandatorily even though the worth of the consignment of products is a smaller amount than Rs. 50,000/-
+                                Therefore, E Way Bills must be generated on the common portal for of these sorts of movements. For certain specified Goods, 
+                                the E Way Bill must be generated mandatorily even though the worth of the consignment of products is a smaller amount than Rs. 50,000/-
                                 </span>
 
                             <br /> <br />
@@ -371,7 +371,7 @@ function Ewaybill() {
 
                         <div className="ewaybill__box">
 
-                            <span id="3" className="ewaybill__question">Q3.Who should generate a eWay Bill? <br /> </span>
+                            <span id="3" className="ewaybill__question">Q3.Who should generate a E Way Bill? <br /> </span>
 
 
                             <span className="ewaybill__answer">
@@ -379,8 +379,8 @@ function Ewaybill() {
                                 <li className="ewaybill__info__text__points">
                                     
                                 <b>Registered Person</b> - When movement of goods is made of value worth more than Rs. 50,000/- or from a 
-                                registered person than in such situation Eway bill must be generated. A Registered person or the transporter 
-                                may prefer to generate and carry eway bill even though the worth of products is a smaller amount than Rs 50,000. 
+                                registered person than in such situation E Way Bill must be generated. A Registered person or the transporter 
+                                may prefer to generate and carry E Way Bill even though the worth of products is a smaller amount than Rs 50,000. 
                                     <li>
                                     <b> Unregistered Persons</b> - e Way bill generation is also required even in the case of unregistered persons.
                                     However, where a supply is formed by an unregistered person 
@@ -406,7 +406,7 @@ function Ewaybill() {
                         <div className="ewaybill__box">
 
                             <span id="4" className="ewaybill__question">
-                            Q4. Validity of eWay Bill?
+                            Q4. Validity of E Way Bill?
                             <br /> </span>
 
 
@@ -455,8 +455,8 @@ function Ewaybill() {
                                 </tr>
                                 </table>
                                 <br/>
-                                Validity of Eway bill can be extended also. The generator of such Eway bill has got to either four
-                                 hours before expiry or within four hours after its expiry can extend Eway bill validity.
+                                Validity of E Way Bill can be extended also. The generator of such E Way Bill has got to either four
+                                 hours before expiry or within four hours after its expiry can extend E Way Bill validity.
 
 
                             </span>
@@ -468,7 +468,7 @@ function Ewaybill() {
                         <div className="ewaybill__box">
 
                             <span id="5" className="ewaybill__question">
-                            Q5. List of documents or Details required for e Way Bill generation ?
+                            Q5. List of documents or Details required for E Way Bill generation ?
                             <br /> </span>
 
 
